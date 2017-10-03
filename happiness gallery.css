@@ -1,0 +1,173 @@
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+
+}
+
+h1 {
+    color: crimson;
+    text-align: left;
+    margin: -100px 5px 0px 2px;
+    font-size: 35px;
+    font-family: "playfair display", georgia, times, sans-serif;
+    font-weight: 700;
+    position: fixed;
+    z-index: 1;
+}
+
+body {
+    background-image: url("images/joe-cooke-72649.jpg");
+    background-size: 1700px 800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), progress !important; /* End http://www.cursors-4u.com */
+}
+
+
+
+.slideshow {
+    margin: 90px 0px 0px 0px;
+    opacity: 0.5;   
+ }
+
+.mySlides {display:none;}
+
+
+#searchbar {
+    border: 1px solid #000000;
+    border-right: none;
+    font-size: 18px;
+    padding: 11px;
+    outline: none;
+    width: 80px;
+   -webkit-border-top-left-radius: 10px;
+   -webkit-border-bottom-left-radius: 10px;
+   -moz-border-radius-topright: 10px;
+   -moz-border-radius-bottomleft: 10px;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   font-family: 'Lato', sans-serif;
+}
+
+
+#searchbutton {
+    border: 1px solid #000000;
+    font-size: 18px;
+    padding: 11px;
+    background: #6A5ACD;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+-webkit-border-top-right-radius: 10px;
+   -webkit-border-bottom-right-radius: 10px;
+   -moz-border-radius-topleft: 10px;
+   -moz-border-radius-bottomright: 10px;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+   font-family: 'Lato', sans-serif;
+   color: white;
+}
+
+
+#searchbutton:hover {
+    background: #ed4567;
+
+}
+
+.searchhh {
+    margin: -190px 0px 0px 1400px;
+    position: absolute;
+}
+
+
+
+/*Actual content starts*/
+
+h2 {
+    color: black;
+    text-align: left;
+    font-size: 25px;
+    margin: 60px 40px 50px 60px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: underline;
+
+}
+
+
+.colorbox {
+    background-color: white;
+    margin: -90px 250px 0px 150px;
+    padding: 10px;
+    width: 1180px;
+    height: 1020px;
+    z-index: 1;
+    border: 10px solid white;
+    border-radius: 150px; /*
+    border-left-style:inset;
+    border-right-style:outset;
+    border-top-style:inset;
+    border-bottom-style:outset; */
+
+}
+
+img.galleryy {
+    height: 250px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 5px;
+    float: left;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+img.galleryy:hover {
+    background-color: crimson;
+    filter:opacity(0.7);
+    
+}
+
+.desc {
+    
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+span {
+    float: left;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    margin: 0px 0px 50px -300px;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 100px -8px 0px -8px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Century Gothic";
+    
+    color: black;
+    font-size: 16px;
+    
+ }
+
+ img.icons {
+      height:30px;
+      width:30px;
+      margin: -90px 0px 80px 0px;
+      display: inline-block;
+      text-align: center;
+ }

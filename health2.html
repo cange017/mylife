@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+
+<div id="align">
+<div id="wrapper">
+
+<head>
+  
+  <title>MY LIFE</title>
+  <link href="health2.css" rel="stylesheet"/>
+  <script type="text/javascript">
+    function active(){
+      var searchbar = document.getElementById('searchbar');
+      if(searchbar.value == 'Search...'){
+        searchbar.value = ''
+        searchbar.placeholder = 'Search...'
+      }
+    }
+    function inactive(){
+      var searchbar = document.getElementById('searchbar');
+      if(searchbar.value == ''){
+        searchbar.value = 'Search...'
+        searchbar.placeholder = ''
+      }
+    }
+  </script>
+
+</head>
+
+
+<body>
+<header>
+
+<a href="test.html"><img src="images/logo.png" style="width: 12%; height: 12%; margin-top: 0px; margin-left: -25px"></a>
+
+</header>
+
+
+<nav id="menu">
+<ul>
+  <li  class="selected"><a href="test.html">HOME</a></li>
+  <li><a href="relationships.html">BEAUTY</a></li>
+  <li><a href="health gallery.html">HEALTH</a></li>
+  <li><a href="happiness.html">HAPPINESS</a></li>
+  
+
+  <li><a href="about.html">CONTACT</a></li>
+
+
+
+<div class="current">
+<div class="ctoparr"></div>   
+<div class="cback"></div>
+<div class="cbotarr"></div>
+
+</div>
+</ul>
+
+</nav>
+
+
+
+<div class="slideshow" >
+  <img class="mySlides" src="images/yumm.jpg"  style="width:100%">
+  <img class="mySlides" src="images/banana-placeholder.jpg"  style="width:100%">
+  <img class="mySlides" src="images/blueberries.jpg"  style="width:100%"> 
+  <img class="mySlides" src="images/chicken.jpeg"  style="width:100%"> 
+  
+</div>
+
+
+
+<div class="searchhh" >
+<form action="" method="post">
+  <input type="text" id="searchbar" placeholder="" value="Search..." maxlength="40" autocomplete="on" onMouseDown= "active();" onBlur="inactive();"/><input type="submit" id="searchbutton" value="Go!"/>
+</form>
+</div>
+
+<style>
+@import url(http://fonts.googleapis.com/css?family=Lato:300|Playfair+Display:900);
+
+#menu {
+display: inline-block;
+position: absolute;
+height: 45px;
+margin: -100px -200px 500px 200px;
+text-align: center;
+white-space: nowrap;
+width: 100%;
+z-index: 8;
+font-family: "Lato", sans-serif;
+text-rendering: optimizeLegibility;
+
+
+}
+#menu ul {
+margin: 0;
+padding: 0;
+position: relative;
+color: transparent;
+}
+#menu ul:after {
+clear: both;
+content: "";
+display: block;
+color: transparent;
+}
+
+#menu li {
+background-position: 50% center;
+display: block;
+float: left;
+font-size: 18px;
+font-weight: bold;
+color: black;
+height: 5px;
+line-height: 40px;
+margin-right: 1%;
+position: relative;
+white-space: nowrap;
+width: 13%;
+z-index: 2;
+
+
+}
+#menu li:after {
+background: url("../images/bg.png") repeat scroll 0 0;
+content: "";
+height: 10%;
+position: absolute;
+right: -10%;
+top: 0;
+width: 13%;
+
+
+}
+#menu li:nth-child(1):before {
+background: url("../images/bg.png") repeat scroll 0 0;
+content: "";
+position: absolute;
+top: 0;
+width: 13%;
+}
+
+#menu li:nth-child(1) {
+
+margin-left: 3%;
+}
+
+#menu a {
+
+display: block;
+height: 30%;
+text-decoration: none;
+color: black;
+
+}
+
+.current{
+height: 90px;
+left: 7.5%;
+margin-left: -50px;
+position: absolute;
+top: -13px;
+width: 100px;
+-webkit-transition: all 400ms cubic-bezier(0, 1.1, 0.5, 1.1);
+-moz-transition: all 400ms cubic-bezier(0, 1.1, 0.5, 1.1);
+-o-transition: all 400ms cubic-bezier(0, 1.1, 0.5, 1.1);
+-ms-transition: all 400ms cubic-bezier(0, 1.1, 0.5, 1.1);
+transition: all 400ms cubic-bezier(0, 1.1, 0.5, 1.1);
+
+}
+.cback {
+background-color:#c12525;
+
+border-radius: 30px;
+
+height: 80%;
+position: absolute;
+width: 160%;
+
+}
+.ctoparr {
+height: 12px;
+border-radius: 80px;
+left: 0;
+overflow: hidden;
+position: absolute;
+top: 13px;
+width: 108%;
+margin-left: 28px;
+z-index: 2;
+
+}
+.ctoparr:before {
+
+content: "";
+height: 10px;
+left: 0%;
+position: absolute;
+top: -10px;
+width: 108%;
+}
+.ctoparr:after{
+border-left: 8px solid transparent;
+border-right: 8px solid transparent;
+
+content: "";
+height: 0;
+left: 30%;
+margin-left: 10px;
+position: absolute;
+top: 0;
+width: 0;
+}
+.cbotarr {
+  border-radius: 100px;
+bottom: 20px;
+height: 12px;
+left: 10;
+margin-left: 28px;
+overflow: hidden;
+position: absolute;
+width: 108%;
+z-index: 2;
+}
+.cbotarr:before {
+border-radius: 100px;
+bottom: -10px;
+
+content: "";
+height: 10px;
+left: 0%;
+position: absolute;
+width: 108%;
+}
+.cbotarr:after {
+border-bottom: 12px solid #c12525;
+border-left: 8px solid transparent;
+border-right: 8px solid transparent;
+bottom: 0;
+content: "";
+height: 0;
+left: 30%;
+margin-left: 10px;
+position: absolute;
+width: 0;
+}
+
+#menu li.selected:nth-child(1) ~ .current {
+left: 7.5%;
+
+}
+#menu li.selected:nth-child(2) ~ .current {
+left: 21.5%;
+}
+#menu li.selected:nth-child(3) ~ .current {
+left: 35.5%;
+}
+#menu li.selected:nth-child(4) ~ .current {  
+left: 49.5%;
+}
+#menu li.selected:nth-child(5) ~ .current {
+left: 63.5%;
+}
+#menu li.selected:nth-child(6) ~ .current {
+left: 77.5%; 
+}
+#menu li.selected:nth-child(7) ~ .current {
+left: 91.5%; 
+}
+#menu li:nth-child(1):hover ~ .current {
+left: 7.5%;
+}
+#menu li:nth-child(2):hover ~ .current {
+left: 21.5%;
+}
+#menu li:nth-child(3):hover ~ .current {
+left: 35.5%;
+}
+#menu li:nth-child(4):hover ~ .current {  
+left: 49.5%;
+}
+#menu li:nth-child(5):hover ~ .current {
+left: 63.5%;
+}
+#menu li:nth-child(6):hover ~ .current {
+left: 77.5%; 
+}
+#menu li:nth-child(7):hover ~ .current {
+left: 91.5%; 
+}
+
+
+</style>
+
+
+
+<!--- Actual content starts -->
+
+
+<div class="colorbox">
+
+<h2>GLUTEN-FREE 2 INGREDIENT PANCAKES</h2>
+
+<h3>Ingredients:</h3>
+
+<h4>Directions:</h4>
+
+
+<div class="pancakes" >
+  <img class="pancakes" src="blog/pan.png"  style="width:9%">
+  <img class="pancakes" src="blog/banana.png"  style="width:9%">
+  <img class="pancakes" src="blog/plate.png"  style="width:9%">
+  <img class="pancakes" src="blog/egg.png"  style="width:9%">
+  <img class="pancakes" src="blog/cup.png"  style="width:9%">  
+  <img class="pancakes" src="blog/fork.png"  style="width:9%">
+</div>
+
+
+<ol id="directions">
+  <li>Put banana in the bowl and smash it with the fork.</li><br>
+  <li>Crack the egg, pour it over another bowl, and whish it with the fork.</li><br>
+  <li>Pour the egg into the bowl with the banana and mix it together.</li><br>
+  <div class="optional">
+  <li>**OPTIONAL: Add cinammon to the mixture for more flavor.</li><br>
+  </div>
+  <li>Put the pan on the stove and add olive oil/coconut oil/vegetable oil for the pancakes to not stick to the pan.</li><br>
+  <li> >Turn the stove on high.</li><br>
+  <li>Wait 2 minutes for pan to heat up and then pour the mixture into the pan, making sure that you make several pancakes.</li><br>
+  <div class="optional">
+  <li>**OPTIONAL: Lower the heat a little and then add blueberries on top of the pancakes.</li><br>
+  </div>
+  <li>Wait around 2 minutes or less and flip the pancakes over.</li><br>
+  <li>Turn off the stove and voila!</li><br>
+</ol>
+
+
+<div class="tutorial" >
+  <img class="tutoriall" src="blog/tutorial1.png"  style="width:30%">
+  <img class="tutoriall" src="blog/tutorial2.jpg"  style="width:30%">
+  <img class="tutoriall" src="blog/tutorial3.jpg"  style="width:30%">
+  <img class="tutoriall" src="blog/tutorial4.jpg"  style="width:30%">
+  <img class="tutoriall" src="blog/tutorial5.jpg"  style="width:30%">
+  <img class="tutoriall" src="blog/tutorial6.jpg"  style="width:30%">
+  <img class="tutoriall" src="blog/tutorial7.jpg"  style="width:30%">
+  <img class="tutoriall" src="blog/tutorial8.jpg"  style="width:30%">
+  <img class="tutoriall" src="blog/tutorial9.jpg"  style="width:30%">
+
+
+
+	<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+	<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+ 
+</div>
+
+
+</div>
+
+<!--- Actual content ends -->
+
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("tutoriall");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+</script>
+
+
+<footer>
+	<p>&#169; COPYRIGHT 2017 CATHERINE ANGELINI</p>
+  <div class="icons">
+  <a href="health2.html"><img class="icons" src="social media icons/instagram.png" width="10%" /></a>
+  <a href="http://www.tumblr.com/share?v=3&u=file%3A%2F%2F%2FC%3A%2FUsers%2FCatherine%2FDesktop%2FLife.com%2520-%2520Copy%2520(2)%2Ftest.html&t="><img class="icons" src="social media icons/tumblr.png" width="10%" /></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=file%3A///C%3A/Users/Catherine/Desktop/Life.com%2520-%2520Copy%2520(2)/test.html"><img class="icons" src="social media icons/facebook.png" width="10%" /></a>
+  <a href="https://twitter.com/home?status=file%3A///C%3A/Users/Catherine/Desktop/Life.com%2520-%2520Copy%2520(2)/test.html"><img class="icons" src="social media icons/twitter.png" width="10%" /></a>
+  <a href="https://plus.google.com/share?url=https%3A//twitter.com/home?status=file%253A///C%253A/Users/Catherine/Desktop/Life.com%252520-%252520Copy%252520(2)/test.html"><img class="icons" src="social media icons/google.png" width="10%" /></a>
+  
+</div>
+</footer>
+
+
+
+</body>
+</div>
+</div>
+</html>
