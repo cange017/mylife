@@ -1,0 +1,82 @@
+body {
+    background-color: white;
+    background-image: url("whitebricks.jpg");
+}
+
+h1 {
+    color: crimson;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 10px;
+    font-family: "century Gothic";
+}
+
+
+h2 {
+	color: black;
+    text-align: right;
+    font-family: "Century Gothic";
+    font-size: 3px;
+    margin-top: -126px;
+    font-weight: bold;
+    margin-right: 261px;
+}
+
+
+
+
+form {
+	text-align: right;
+    margin-top: -55.6px
+}
+
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+li {
+    display: inline;
+    float: left;
+    margin-top: 30px;
+}
+
+
+
+a:link, a:visited {
+    display: block;
+    width: 271px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: black;
+    text-align: center;
+    padding: 0.5px;
+    text-decoration: none;
+    margin-top:-20px;
+    font-family: "Century Gothic"
+}
+
+
+
+a:hover, a:active {
+    background-color: #DC143C;
+}
+
+
+.round {
+    border-radius: 50%;
+    overflow: hidden;
+     width: 250px;
+    height: 250px;
+}
+
+
+img {
+    margin-left: 0px;
+    margin-top: 90px;
+}
+

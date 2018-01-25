@@ -1,0 +1,46 @@
+/*Actual content starts*/
+
+/*
+
+p.info {
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+
+
+span {
+    float: left;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    margin: 0px 0px 50px -300px;
+}
+
+.info {
+    text-align:left;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+*/
+
+dl {
+    font-family: Quicksand, sans-serif;
+    padding: 2%;
+	font-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+dt {
+    font-weight: bold;
+    color: black;
+    float: left;
+}
+
