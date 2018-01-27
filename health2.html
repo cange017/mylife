@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<div id="wrapper">
+
+<head>
+  
+  <title>MY LIFE</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="content.css" rel="stylesheet"/>
+  <link href="health2.css" rel="stylesheet"/>
+
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Helvetica Neue|Great+Vibes|Julius+Sans+One|Prata|Quicksand|Sacramento" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+</head>
+
+
+<body>
+    
+<div class="container-fluid">
+
+
+
+
+<nav>
+    <a href="test.html"><img class="logo" src="photoshop/vertical.png"></a>
+        
+<ul>
+    
+  <li><a href="test.html">home</a></li>
+  <li><a href="beauty gallery.html">beauty</a></li>
+  <li   class="selected"><a href="health gallery.html">health</a></li>
+  <li><a href="happiness gallery.html">happiness</a></li>
+  <li><a href="about.html">contact</a></li>
+ 
+
+<div class="current">
+<div class="ctoparr"></div>   
+<div class="cback"></div>
+<div class="cbotarr"></div>
+
+</div>
+</ul>
+    <div class="iconsnav">
+  <a href="health2.html"><img class="icons" src="social media icons/instagram.png" width="10%" /></a>
+ 
+  <a href="https://www.facebook.com/sharer/sharer.php?u=file%3A///C%3A/Users/Catherine/Desktop/Life.com%2520-%2520Copy%2520(2)/test.html"><img class="icons" src="social media icons/facebook.png" width="10%" /></a>
+  <a href="https://twitter.com/home?status=file%3A///C%3A/Users/Catherine/Desktop/Life.com%2520-%2520Copy%2520(2)/test.html"><img class="icons" src="social media icons/twitter.png" width="10%" /></a>
+  <a href="https://plus.google.com/share?url=https%3A//twitter.com/home?status=file%253A///C%253A/Users/Catherine/Desktop/Life.com%252520-%252520Copy%252520(2)/test.html"><img class="icons" src="social media icons/google.png" width="10%" /></a>
+  
+    </div>
+</nav>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript">
+	$("nav").addClass("js").before('<div id="menu">&#9776;</div>');
+	$("#menu").click(function(){
+		$("nav").toggle();
+	});
+	$(window).resize(function(){
+		if(window.innerWidth > 768) {
+			$("nav").removeAttr("style");
+		}
+	});
+</script>
+<!--
+<div class="searchhh" >
+<form action="" method="post">
+  <input type="text" id="searchbar" placeholder="" value="Search..." maxlength="40" autocomplete="on" onMouseDown= "active();" onBlur="inactive();"/><input type="submit" id="searchbutton" value="Go!"/>
+</form>
+</div>
+-->
+  
+
+<!--- Actual content starts -->
+
+<article>
+    
+<div class="boxed">
+    
+<h2>Gluten-Free 2 Ingredient Pancakes</h2>
+
+    
+    <div class="main">
+    
+      <img src="images/oatmeal.jpg" width="500" height="400"/>
+    
+  </div>
+
+    
+<h3>Ingredients</h3>
+<div class="pancakes" >
+  <img class="pancakes" src="blog/pan.png"  style="width:10%">
+  <img class="pancakes" src="blog/banana.png"  style="width:10%">
+  <img class="pancakes" src="blog/plate.png"  style="width:10%">
+  <img class="pancakes" src="blog/egg.png"  style="width:10%">
+  <img class="pancakes" src="blog/cup.png"  style="width:10%">  
+  <img class="pancakes" src="blog/fork.png"  style="width:10%">
+</div>
+
+<h3>Directions</h3>
+
+<ol id="directions">
+  <li>Put banana in the bowl and smash it with the fork.</li><br>
+  <li>Crack the egg, pour it over another bowl, and whish it with the fork.</li><br>
+  <li>Pour the egg into the bowl with the banana and mix it together.</li><br>
+  <div class="optional">
+  <li>**OPTIONAL: Add cinammon to the mixture for more flavor.</li><br>
+  </div>
+  <li>Put the pan on the stove and add olive oil/coconut oil/vegetable oil for the pancakes to not stick to the pan.</li><br>
+  <li>Turn the stove on high.</li><br>
+  <li>Wait 2 minutes for pan to heat up and then pour the mixture into the pan, making sure that you make several pancakes.</li><br>
+  <div class="optional">
+  <li>**OPTIONAL: Lower the heat a little and then add blueberries on top of the pancakes.</li><br>
+  </div>
+  <li>Wait around 2 minutes or less and flip the pancakes over.</li><br>
+  <li>Turn off the stove and voila!</li><br>
+</ol>
+
+<h3>Enjoy!</h3>
+<div class="tutorial" >
+  <img class="tutoriall" src="blog/tutorial1.png"  style="width:30%">
+  <img class="tutoriall" src="blog/tutorial2.jpg"  style="width:30%">
+  <img class="tutoriall" src="blog/tutorial3.jpg"  style="width:30%">
+  <img class="tutoriall" src="blog/tutorial4.jpg"  style="width:30%">
+  <img class="tutoriall" src="blog/tutorial5.jpg"  style="width:30%">
+  <img class="tutoriall" src="blog/tutorial6.jpg"  style="width:30%">
+  <img class="tutoriall" src="blog/tutorial7.jpg"  style="width:30%">
+  <img class="tutoriall" src="blog/tutorial8.jpg"  style="width:30%">
+  <img class="tutoriall" src="blog/tutorial9.jpg"  style="width:30%">
+
+	<button class="left" onclick="plusDivs(-1)">&#10094;</button>
+	<button class="right" onclick="plusDivs(1)">&#10095;</button>
+
+ 
+</div>
+    
+</article>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("tutoriall");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("tutoriall");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+</script>
+
+<!--- Actual content ends -->
+
+<footer>
+  <p><strong>&#169; COPYRIGHT 2018 CATHERINE ANGELINI</strong></p>
+  <div class="icons">
+  <a href="health2.html"><img class="icons" src="social media icons/instagram.png" width="10%" /></a>
+  
+  <a href="https://www.facebook.com/sharer/sharer.php?u=file%3A///C%3A/Users/Catherine/Desktop/Life.com%2520-%2520Copy%2520(2)/test.html"><img class="icons" src="social media icons/facebook.png" width="10%" /></a>
+  <a href="https://twitter.com/home?status=file%3A///C%3A/Users/Catherine/Desktop/Life.com%2520-%2520Copy%2520(2)/test.html"><img class="icons" src="social media icons/twitter.png" width="10%" /></a>
+  <a href="https://plus.google.com/share?url=https%3A//twitter.com/home?status=file%253A///C%253A/Users/Catherine/Desktop/Life.com%252520-%252520Copy%252520(2)/test.html"><img class="icons" src="social media icons/google.png" width="10%" /></a>
+  
+    </div>
+</footer>
+
+
+
+</body>
+    
+</div>
+</html>
