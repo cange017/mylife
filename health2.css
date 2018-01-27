@@ -1,0 +1,93 @@
+
+/*Actual content starts*/
+
+
+
+.desc {
+    
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+/*Actual content starts*/
+
+.main img {
+    border-radius: 50%;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-family: Prata, sans-serif;
+    padding: 1%;
+    font-size: 120%;
+    background-color:cornflowerblue;
+    opacity: 0.7;
+}
+
+
+
+
+.pancakes {
+    
+    height: 110px;
+    z-index: 8;
+    display: inline;
+    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+ }
+
+#directions {
+    list-style-type: number;
+    font-family:  Quicksand, sans-serif;  
+    font-size: 1.4vw;
+    color: black;
+    text-align: left;
+    margin-left: 2%;
+    ;
+   
+}
+
+
+.optional {
+    color: crimson;
+}
+
+.tutoriall {
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    border-radius: 50%;
+    margin-bottom: 2%;
+
+ }
+
+button {
+    display: inline;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    height: 6vh;
+    width: 4%;
+    
+    
+}
+
+button.left {
+    margin-right: 1%;
+    
+}
+
+button:hover {
+    background-color: crimson;
+}
+
+
