@@ -210,6 +210,10 @@ line-height: 2.0;
 		margin: 0;
 		padding: 0;
 	}
+		
+	.boxed {
+            margin-top: 20%;
+        }
         
         .logo {
             display: none;
