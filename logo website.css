@@ -1,0 +1,27 @@
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    margin: 0px;
+  
+
+}
+
+h1 {
+    
+    text-align: center;
+    
+    font-size:1.4em;
+    vertical-align: middle;
+    z-index: 1;
+    color: black;
+    font-family:monospace;
+    text-rendering: optimizeLegibility;
+    border-bottom: 4px solid black;
+    
+    }
+ 
+
+
+
+
