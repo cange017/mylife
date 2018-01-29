@@ -8,6 +8,7 @@
 
 body {
 
+	/*
   background-image: url("images/rsz_joe-cooke-72649.jpg");
 
   background-size: 1700px 800px;
@@ -23,7 +24,27 @@ background-repeat: no-repeat;
     -webkit-animation-name: fontfix;
     -webkit-animation-duration: 0.1s;
     -webkit-animation-iteration-count: 1;
-    -webkit-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear; */
+	animation: colorchange 25s infinite; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 25s infinite; /* Chrome and Safari */
+    }
+    @keyframes colorchange
+    {
+      0%   {background: crimson;}
+      25%  {background: lightyellow;}
+      50%  {background: lightblue;}
+      75%  {background: lightgreen;}
+      100% {background: crimson;}
+    }
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: crimson;}
+      25%  {background: lightyellow;}
+      50%  {background: blue;}
+      75%  {background: lightgreen;}
+      100% {background: crimson;}
+    }
 		
 		}
   
