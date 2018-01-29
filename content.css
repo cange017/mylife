@@ -25,25 +25,25 @@ background-repeat: no-repeat;
     -webkit-animation-duration: 0.1s;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-timing-function: linear; */
-	animation: colorchange 25s infinite; /* animation-name followed by duration in seconds*/
+	animation: colorchange 35s infinite; /* animation-name followed by duration in seconds*/
          /* you could also use milliseconds (ms) or something like 2.5s */
-      -webkit-animation: colorchange 25s infinite; /* Chrome and Safari */
+      -webkit-animation: colorchange 35s infinite; /* Chrome and Safari */
     }
     @keyframes colorchange
     {
-      0%   {background: crimson;}
-      25%  {background: lightyellow;}
+      0%   {background: lightyellow;}
+      25%  {background: crimson;}
       50%  {background: lightblue;}
       75%  {background: lightgreen;}
-      100% {background: crimson;}
+      100% {background: #F4D03F;}
     }
     @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
     {
-      0%   {background: crimson;}
-      25%  {background: lightyellow;}
-      50%  {background: blue;}
+      0%   {background:lightyellow;}
+      25%  {background: crimson;}
+      50%  {background: lightblue;}
       75%  {background: lightgreen;}
-      100% {background: crimson;}
+      100% {background: #F4D03F;}
     }
 		
 		}
