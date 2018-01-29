@@ -46,9 +46,9 @@
 	
 body {
 /* cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), progress !important; */
-          animation: colorchange 50s; /* animation-name followed by duration in seconds*/
+          animation: colorchange 40s infinite; /* animation-name followed by duration in seconds*/
          /* you could also use milliseconds (ms) or something like 2.5s */
-      -webkit-animation: colorchange 50s; /* Chrome and Safari */
+      -webkit-animation: colorchange 40s infinite; /* Chrome and Safari */
     }
 
     @keyframes colorchange
@@ -57,7 +57,7 @@ body {
       25%  {background: lightyellow;}
       50%  {background: lightblue;}
       75%  {background: lightgreen;}
-      100% {background: red;}
+      100% {background: crimson;}
     }
 
     @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
@@ -66,7 +66,7 @@ body {
       25%  {background: lightyellow;}
       50%  {background: blue;}
       75%  {background: lightgreen;}
-      100% {background: red;}
+      100% {background: crimson;}
     }
 
 }
