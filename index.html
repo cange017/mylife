@@ -22,12 +22,10 @@
 
 <style>
 
-body {
-background-image: url("images/rsz_joe-cooke-72649.jpg");
-/* cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), progress !important; */
-
-}
-
+.logo {
+	-webkit-filter: drop-shadow(15px 15px 8px rgba(0,0,0,0.9));
+  	filter: drop-shadow(15px 15px 7px rgba(0,0,0,0.9));
+	}
 @media only screen and (max-width: 768px) {
     
     .logo {
@@ -46,6 +44,33 @@ background-image: url("images/rsz_joe-cooke-72649.jpg");
 
 }
 	
+body {
+/* cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), progress !important; */
+          animation: colorchange 50s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 50s; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: crimson;}
+      25%  {background: lightyellow;}
+      50%  {background: lightblue;}
+      75%  {background: lightgreen;}
+      100% {background: red;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: crimson;}
+      25%  {background: lightyellow;}
+      50%  {background: blue;}
+      75%  {background: lightgreen;}
+      100% {background: red;}
+    }
+
+}
+
 img.logo:hover {
     
 filter:opacity(0.6);
