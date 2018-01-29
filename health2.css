@@ -29,7 +29,7 @@ h3 {
     text-align: center;
     font-family: Prata, sans-serif;
     padding: 1%;
-    font-size: 120%;
+    font-size: 110%;
     background-color:cornflowerblue;
     
 }
@@ -59,7 +59,7 @@ h4 {
 #directions {
     list-style-type: number;
     font-family:  Quicksand, sans-serif;  
-    font-size: 1.4vw;
+    font-size: 100%;
     color: black;
     text-align: left;
     margin-left: 2%;
@@ -67,10 +67,11 @@ h4 {
    
 }
 
+
 p {
     color: black;
     font-family:  Quicksand, sans-serif;  
-    font-size: 1.4vw;
+    font-size: 100%;
     margin-left: 2%;
     margin-right: 2%;
     font-weight: bold;
