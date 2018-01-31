@@ -7,13 +7,11 @@
     margin-right:auto;
     position: relative;
     margin: 0px;
-  
-
 }
     
 .logo {
         -webkit-filter: drop-shadow(10px 10px 8px rgba(0,0,0,0.9));
-  filter: drop-shadow(10px 10px 7px rgba(0,0,0,0.9));
+    filter: drop-shadow(10px 10px 7px rgba(0,0,0,0.9));
     text-align: center;
     }
 
@@ -21,56 +19,50 @@ h1 {
     
     text-align: center;
     font-family: "Pt Sans Narrow";
-    font-size:3em;
-    vertical-align: middle;
-    z-index: 1;
-    color: black;
-    margin-bottom: 0;
-    text-rendering: optimizeLegibility;
-    }
- 
-h4 {
-    
-    font-family: "Quicksand";
-   font-weight: 300;
-	font-size: 1.4rem;
-	margin-top: .4rem;
-	outline: none; 
-    text-align: center;
-    
+    font-size:2.5em;
     vertical-align: middle;
     z-index: 1;
     color: black;
     margin-bottom: 0;
     text-rendering: optimizeLegibility;
 }
+ 
+h4 {
+    
+    font-family: "Quicksand";
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-top: .4rem;
+    outline: none; 
+    text-align: center;
+    vertical-align: middle;
+    z-index: 1;
+    color: black;
+    margin-bottom: 0;
+    text-rendering: optimizeLegibility;
+}
+
 @media only screen and (max-width: 768px) {
-    .h1 {
-        font-size: 10%;
-        margin-top: 0%;
-    }
     .logo {
         width: 40%;
         height: auto;
-        padding-top: 10%;
         margin-bottom: 0%;
-        margin-top: 10%;
         min-width: 40%;
         display: block;
         margin-left: auto;
         margin-right: auto;
         -webkit-filter: drop-shadow(15px 15px 8px rgba(0,0,0,0.9));
-  filter: drop-shadow(15px 15px 7px rgba(0,0,0,0.9));
+        filter: drop-shadow(15px 15px 7px rgba(0,0,0,0.9));
     }
 
 }
     
 body {
-    background-image: url("images/rsz_joe-cooke-72649.jpg");
-animation: colorchange 20s infinite;  /* animation-name followed by duration in seconds
+        background-image: url("images/rsz_joe-cooke-72649.jpg");
+        animation: colorchange 20s infinite;  /* animation-name followed by duration in seconds
           you could also use milliseconds (ms) or something like 2.5s */
-      -webkit-animation: colorchange 20s infinite; /* Chrome and Safari */
-    display: flex;
+       -webkit-animation: colorchange 20s infinite; /* Chrome and Safari */
+        display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
