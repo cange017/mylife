@@ -58,6 +58,7 @@ h4 {
 }
     
 body {
+	border-bottom: 2px solid black;
         background-image: url("images/rsz_joe-cooke-72649.jpg");
         animation: colorchange 20s infinite;  /* animation-name followed by duration in seconds
           you could also use milliseconds (ms) or something like 2.5s */
