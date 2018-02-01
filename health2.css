@@ -27,7 +27,7 @@
 h3 {
     color: white;
     text-align: center;
-    font-family: Prata, sans-serif;
+    font-family: "Pt Sans Narrow", sans-serif;
     padding: 1%;
     font-size: 110%;
     background-color:cornflowerblue;
@@ -37,7 +37,7 @@ h3 {
 h4 {
     color: black;
     text-align: middle;
-    font-family: Quicksand, sans-serif;
+    font-family: "Quicksand", sans-serif;
     padding: 1%;
     font-size: 110%;
     
@@ -58,7 +58,7 @@ h4 {
 
 #directions {
     list-style-type: number;
-    font-family:  Quicksand, sans-serif;  
+    font-family:  "Quicksand", sans-serif;  
     font-size: 100%;
     color: black;
     text-align: left;
@@ -70,7 +70,7 @@ h4 {
 
 p {
     color: black;
-    font-family:  Quicksand, sans-serif;  
+    font-family:  "Quicksand", sans-serif;  
     font-size: 100%;
     margin-left: 2%;
     margin-right: 2%;
@@ -94,8 +94,8 @@ p {
  }
 
 button.print {
-    width: 10%;
-    font-family: Quicksand, sans-serif ;
+    width: 12%;
+    font-family: "Quicksand", sans-serif ;
     font-weight: bold;
     background-color: white;
     color: black;
