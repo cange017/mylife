@@ -58,7 +58,6 @@ h4 {
 }
     
 body {
-	border-bottom: 2px solid black;
         background-image: url("images/rsz_joe-cooke-72649.jpg");
         animation: colorchange 20s infinite;  /* animation-name followed by duration in seconds
           you could also use milliseconds (ms) or something like 2.5s */
@@ -103,6 +102,24 @@ filter:opacity(0.6);
   
 }
 
+footer {
+    
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 8em -8px 0px -8px;
+    text-align: center;
+    
+ }
+
+img.icons {
+    
+      height:auto;
+      width: 1.5em;
+      margin: 0px 0px 0px 0px;
+      display: inline-block;
+      text-align: center;
+ }
 
 
 
