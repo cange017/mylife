@@ -99,7 +99,7 @@ button.print {
     font-weight: bold;
     background-color: white;
     color: black;
-    float: right;
+    float: center;
     overflow: hidden;
         
 }
