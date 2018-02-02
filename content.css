@@ -33,18 +33,18 @@ background-repeat: no-repeat;
     }
     @keyframes colorchange
     {
-      0%   {background: lightyellow;}
-      25%  {background: crimson;}
+      0%   {background: #F4D03F;}
+      25%  {background: #F4D03F;}
       50%  {background: lightblue;}
-      75%  {background: lightgreen;}
+      75%  {background: lightblue;}
       100% {background: #F4D03F;}
     }
     @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
     {
-      0%   {background:lightyellow;}
-      25%  {background: crimson;}
+      0%   {background: #F4D03F;}
+      25%  {background: #F4D03F;}
       50%  {background: lightblue;}
-      75%  {background: lightgreen;}
+      75%  {background: lightblue;}
       100% {background: #F4D03F;}
     }
 		
