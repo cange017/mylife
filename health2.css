@@ -1,0 +1,136 @@
+.desc {
+    text-align: left;
+    color: black;
+    font-size: 3em;
+    font-family: "Quicksand", sans-serif;
+}
+
+button.print {
+    width: 20%;
+    height: auto;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    float: center;
+    overflow: hidden;
+}
+
+/* phones or tablets */
+
+@media only screen and (max-width: 768px) {
+
+.main img {
+    margin-top: 3%;
+        border-radius: 50%;
+        max-width: 70%;
+        height: auto;
+    }
+    
+    #directions {
+        line-height: 2em;
+    
+    }
+
+}
+
+/* dektop or general */
+
+.main img {
+    border-radius: 50%;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-family: "Pt Sans Narrow", sans-serif;
+    padding: 1%;
+    font-size: 1.5em;
+    background-color: cornflowerblue;
+    overflow: auto;
+    margin-bottom: 2em;
+    
+}
+
+h4 {
+    color: black;
+    text-align: middle;
+    font-family: "Quicksand", sans-serif;
+    padding: 2%;
+    font-size: 1.2em;
+    
+}
+
+#directions {
+    
+    list-style-type: number;
+    list-style-position: inside;
+    overflow: auto;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2em;
+    
+    text-align: left;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    
+    color: black;
+    
+    
+}
+
+/* notes/ disclaimers */
+p.notes {
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.3em;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2em;
+    
+}
+
+.optional {
+    color: crimson;
+    font-weight: bold;
+}
+
+.tutoriall {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    z-index: 1;
+    border-radius: 50%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+
+
+button.right {
+    display: inline;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    margin-bottom: 5%;
+}
+
+button.left {
+    margin-right: 1%;
+    display: inline;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    margin-bottom: 5%;
+
+}
+
+button:hover {
+    background-color: crimson;
+}
