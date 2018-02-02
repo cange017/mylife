@@ -58,22 +58,23 @@ h4 {
 }
     
 body {
-        background-image: url("images/rsz_joe-cooke-72649.jpg");
-        animation: colorchange 20s infinite;  /* animation-name followed by duration in seconds
-          you could also use milliseconds (ms) or something like 2.5s */
-       -webkit-animation: colorchange 20s infinite; /* Chrome and Safari */
+        background-image: url("images/taduuda-196007.jpg");
+        /* animation: colorchange 20s infinite;  /* animation-name followed by duration in seconds
+          you could also use milliseconds (ms) or something like 2.5s 
+       -webkit-animation: colorchange 20s infinite; /* Chrome and Safari 
+	*/
         display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	height: 90vh;
 	-webkit-font-smoothing: antialiased;
-	background-blend-mode:soft-light;
+	/* background-blend-mode:soft-light; */
 	background-size: cover;
 	background-position: center;
     
     }
-
+/*
     @keyframes colorchange
     {
       0%   {background-color: #EC504F;}
@@ -83,7 +84,7 @@ body {
       100% {background-color:  #EC504F;}
     }
 
-    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate 
     {
         0%   {background-color: #EC504F;}
       25%  {background-color: lightblue;}
@@ -92,7 +93,7 @@ body {
       100% {background-color:  #EC504F;}
     }
     
-
+*/
 }
 
 
