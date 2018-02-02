@@ -32,6 +32,15 @@ button.print {
     
     }
 
+    #directions ul li{
+    list-style-position: inside;
+    display: list-item;
+    overflow: auto;
+    list-style-type:circle;
+    padding-left: 2em;
+    
+}
+
 }
 
 /* dektop or general */
