@@ -91,6 +91,7 @@ h4 {
     
 body {
         background-image: url("images/taduuda-196007.jpg");
+	background-color: #fce8e8
         /* animation: colorchange 20s infinite;  /* animation-name followed by duration in seconds
           you could also use milliseconds (ms) or something like 2.5s 
        -webkit-animation: colorchange 20s infinite; /* Chrome and Safari 
