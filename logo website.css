@@ -26,6 +26,7 @@ body {
     
     animation-duration: 4s;
   animation-name: slidein;
+	animation-delay: 2s;
 }
 
 @keyframes slidein {
