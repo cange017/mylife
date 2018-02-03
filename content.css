@@ -314,6 +314,12 @@ div.desc2 a {
 			width:100%;
 			border-right:none;
 		}
+		
+		/* footer/copyright */
+		p {
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
 	}
 
 /* desktop version */
