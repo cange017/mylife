@@ -4,7 +4,7 @@
 #habits {
     
     font-family: 'Quicksand', sans-serif;  
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: black;
     text-align: justify;
     padding-left: 5%;
@@ -12,7 +12,7 @@
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
-    line-height: 1.5;
+    line-height: 1.2;
    
 }
 
@@ -20,7 +20,7 @@
 h5 {
     font-family: "Pt Sans Narrow", sans-serif;
     color: black;
-    font-size: 2em;
+    font-size: 1.8em;
     margin-bottom: 0%;
 }
 
@@ -35,7 +35,7 @@ p#definition {
     float: center;
     font-family: "Merriweather", sans-serif;
     color: black;
-    font-size: 1.4em;
+    font-size: 1.3em;
     padding: 3%;
     text-align: justify;
     margin-left: auto;
