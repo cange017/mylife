@@ -1,0 +1,44 @@
+
+
+
+#habits {
+    
+    font-family: 'Quicksand', sans-serif;  
+    font-size: 1.5em;
+    color: black;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+   
+}
+
+
+h5 {
+    font-family: "Pt Sans Narrow", sans-serif;
+    color: black;
+    font-size: 2em;
+    margin-bottom: 0%;
+}
+
+p#under {
+    font-family: "Merriweather", sans-serif;
+    color: black;
+    font-size: 1em;
+}
+
+p#definition {
+    
+    float: center;
+    font-family: "Merriweather", sans-serif;
+    color: black;
+    font-size: 1.4em;
+    padding: 3%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
