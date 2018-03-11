@@ -460,6 +460,11 @@ footer {
      
  }
 
+img.iconsnav {
+    width: 1.3em;
+    height: auto;
+}
+
 /*
 #menu {
 display: inline-block;
