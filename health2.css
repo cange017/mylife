@@ -4,6 +4,7 @@
     font-size: 3em;
     font-family: "Quicksand", sans-serif;
 }
+
 /* back button */
 button.back {
     /*
@@ -89,18 +90,20 @@ button.print {
         height: auto;
     }
     
-    #directions {
+#directions {
         line-height: 2em;
     
-    }
-
-    #directions ul li{
+}
+    
+#directions ul li{
     list-style-position: inside;
     display: list-item;
     overflow: auto;
     list-style-type:circle;
     padding-left: 2em;
     
+}
+
 }
 
 /* dektop or general */
@@ -118,6 +121,7 @@ h3 {
     background-color: cornflowerblue;
     overflow: auto;
     margin-bottom: 2em;
+    
     
 }
 
@@ -143,10 +147,9 @@ h4 {
     margin-bottom: 2em;
     margin-right: 2em;
     
-    color: black;
-    
-    
+    color: black; 
 }
+
 
 /* notes/ disclaimers */
 p.notes {
@@ -155,8 +158,7 @@ p.notes {
     font-size: 1.3em;
     margin-left: 3%;
     margin-right: 3%;
-    font-weight: bold;
-    text-align: center;
+    text-align: left;
     margin-bottom: 2em;
     
 }
