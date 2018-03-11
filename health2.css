@@ -20,7 +20,8 @@ button.back {
     overflow: hidden;
     -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.9));
   filter: drop-shadow(2px 4px 2px 2px rgba(0,0,0,0.9)); 
-
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 
