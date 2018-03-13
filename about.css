@@ -68,7 +68,7 @@ fieldset {
 @media only screen and (max-width: 768px) {
     
     #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
-    width:100%;
+    width:80%;
     border:1px solid #CCC;
     color: black;
     background:white;
@@ -82,14 +82,14 @@ fieldset {
 
     #contact textarea {
     height:25vh;
-    max-width:100%;
+    max-width:80%;
     resize:none;
     
 }
 
 #contact button[type="submit"] {
    cursor: pointer;
-    width:100%;
+    width:80%;
     background: #F4D03F;
     color: black;
     margin:0 0 3%;
