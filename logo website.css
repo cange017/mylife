@@ -48,9 +48,9 @@ body {
   }
 }
 
-*/
+*/ /*
 #video-background {
-/*  making the video fullscreen  */
+ making the video fullscreen  
   position: fixed;
   right: 0; 
   bottom: 0;
@@ -60,7 +60,7 @@ body {
   height: auto;
   z-index: -100;
 }
-
+*/
 h1 {
     
     text-align: center;
@@ -104,7 +104,7 @@ h4 {
 }
     
 body {
-        /* background-image: url("images/taduuda-196007.jpg"); 
+        background-image: url("images/taduuda-196007.jpg"); 
 	background-color: #fce8e8; */
         /* animation: colorchange 20s infinite;  /* animation-name followed by duration in seconds
           you could also use milliseconds (ms) or something like 2.5s 
