@@ -9,7 +9,7 @@ aside {
 
 #contact {
     
-    background:#eeebf9;
+    background: white;
     padding:1%;
     text-align: center;
     
@@ -29,9 +29,10 @@ aside {
     font-size: 150%;
     line-height: 1.3;
     font-weight: 400;
-    border-bottom: 1px solid black;
+    -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.9));
+  filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.9));
      
-    background-color: transparent;
+    background-color: #F4D03F;
     
 }
 
@@ -79,17 +80,16 @@ fieldset {
 }
 
 #contact button[type="submit"] {
-    cursor:pointer;
+cursor:pointer;
     width:50%;
-    border: 1px solid black;
-    
+    background: #F4D03F;
     color: black;
     margin:0 0 3%;
     padding:1%;
     font-size:100%;
     line-height: 1.3;
-    
-    
+    -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.9));
+  filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.9));
 }
 
 #contact button[type="submit"]:hover {
