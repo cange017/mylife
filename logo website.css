@@ -7,14 +7,91 @@
     margin-right:auto;
     position: relative;
     margin: 0px;
+  
+
 }
     
-.logo {
-        -webkit-filter: drop-shadow(10px 10px 8px rgba(0,0,0,0.9));
-    filter: drop-shadow(10px 10px 7px rgba(0,0,0,0.9));
+
+
+h1 {
+    
     text-align: center;
+    font-family: "Pt Sans Narrow";
+    font-size:2.5em;
+    vertical-align: middle;
+    z-index: 1;
+    color: black;
+    margin-bottom: 0;
+    text-rendering: optimizeLegibility;
+    }
+ 
+h4 {
+    
+    font-family: "Quicksand";
+   font-weight: 300;
+	font-size: 1.4rem;
+	margin-top: .4rem;
+	outline: none; 
+    text-align: center;
+    
+    vertical-align: middle;
+    z-index: 1;
+    color: black;
+    margin-bottom: 0;
+    text-rendering: optimizeLegibility;
+}
+@media only screen and (max-width: 768px) {
+   
+    .logo {
+        width: 40%;
+        height: auto;
+       margin-top: 0%;
+        min-width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        -webkit-filter: drop-shadow(15px 15px 8px rgba(0,0,0,0.9));
+  filter: drop-shadow(15px 15px 7px rgba(0,0,0,0.9));
     }
 
+}
+    
+body {
+    
+    background-image: url("images/taduuda-196007.jpg"); 
+    
+    background-color: white;
+    
+animation: colorchange 30s infinite;  /* animation-name followed by duration in seconds
+          you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 30s infinite; /* Chrome and Safari */
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 97vh;
+	-webkit-font-smoothing: antialiased;
+    background-blend-mode: hard-light;
+    
+	background-size: cover;
+	background-position: center;
+
+    }
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+.logo {
+        -webkit-filter: drop-shadow(10px 10px 8px rgba(0,0,0,0.9));
+  filter: drop-shadow(10px 10px 7px rgba(0,0,0,0.9));   
+    }
 /*
 75% {
   
@@ -27,7 +104,6 @@ body {
     
     animation-duration: 4s;
   animation-name: slidein;
-	animation-delay: 2s;
 }
 
 @keyframes slidein {
@@ -47,100 +123,26 @@ body {
     width: 100%;
   }
 }
-
-*/ /*
-#video-background {
- making the video fullscreen  
-  position: fixed;
-  right: 0; 
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  width: auto; 
-  height: auto;
-  z-index: -100;
-}
 */
-h1 {
-    
-    text-align: center;
-    font-family: "Pt Sans Narrow";
-    font-size:2.2em;
-    vertical-align: middle;
-    z-index: 1;
-    color: black;
-    margin-bottom: 0;
-    text-rendering: optimizeLegibility;
-}
- 
-h4 {
-    
-    font-family: "Quicksand";
-    font-weight: 300;
-    font-size: 1.1rem;
-    margin-top: .4rem;
-    outline: none; 
-    text-align: center;
-    vertical-align: middle;
-    z-index: 1;
-    color: black;
-    margin-bottom: 0;
-    text-rendering: optimizeLegibility;
-}
-
-@media only screen and (max-width: 768px) {
-    .logo {
-        width: 40%;
-        height: auto;
-        margin-bottom: 0%;
-        min-width: 40%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        -webkit-filter: drop-shadow(15px 15px 8px rgba(0,0,0,0.9));
-        filter: drop-shadow(15px 15px 7px rgba(0,0,0,0.9));
-    }
-
-}
-    
-body {
-        background-image: url("images/taduuda-196007.jpg"); 
-	background-color: #fce8e8; */
-        /* animation: colorchange 20s infinite;  /* animation-name followed by duration in seconds
-          you could also use milliseconds (ms) or something like 2.5s 
-       -webkit-animation: colorchange 20s infinite; /* Chrome and Safari 
-	*/
-        display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	height: 90vh;
-	-webkit-font-smoothing: antialiased;
-	/* background-blend-mode:soft-light; */
-	background-size: cover;
-	background-position: center;
-    
-    }
-/*
     @keyframes colorchange
     {
-      0%   {background-color: #EC504F;}
-      25%  {background-color: lightblue;}
-      50%  {background-color:bisque;}
-      75%  {background-color: lightgreen;}
-      100% {background-color:  #EC504F;}
+      0%   {background-color:#FF7A5C ;}
+      25%  {background-color: blue;}
+      50%  {background-color: #66FFC2;}
+      75%  {background-color: #B8468D;}
+      100% {background-color: #FF7A5C;}
     }
 
-    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate 
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
     {
-        0%   {background-color: #EC504F;}
-      25%  {background-color: lightblue;}
-      50%  {background-color:bisque;}
-      75%  {background-color: lightgreen;}
-      100% {background-color:  #EC504F;}
+      %   {background-color: blue;}
+      25%  {background-color: blue;}
+      50%  {background-color: crimson;}
+      75%  {background-color: yellow;}
+      100% {background-color: crimson;}
     }
     
-*/
+
 }
 
 
@@ -151,11 +153,11 @@ filter:opacity(0.6);
 }
 
 footer {
-    
+    background-color: white;
     position: absolute;
     right: 0;
     left: 0;
-    margin: 6.5em -8px 0px -8px;
+    margin: 8em -8px 0px -8px;
     text-align: center;
     
  }
@@ -168,7 +170,5 @@ img.icons {
       display: inline-block;
       text-align: center;
  }
-
-
 
 
