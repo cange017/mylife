@@ -1,231 +1,272 @@
-#wrapper {
-    margin-left:auto;
-    margin-right:auto;
-    position: relative;
-
-}
-
-h1 {
-    color: crimson;
-    text-align: left;
-    margin: -100px 5px 0px 2px;
-    font-size: 35px;
-    font-family: "playfair display", georgia, times, sans-serif;
-    font-weight: 700;
-    position: fixed;
-    z-index: 1;
-}
-
-body {
-    background-image: url("images/sunset.jpg");
-    background-size: 1700px 800px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), progress !important; /* End http://www.cursors-4u.com */
-}
-
-
-
-.slideshow {
-    margin: 90px 0px 0px 0px;
-    opacity: 0.5; 
- }
-
- .mySlides {display:none;}
-
-
-
-
-#searchbar {
-    border: 1px solid #000000;
-    border-right: none;
-    font-size: 18px;
-    padding: 11px;
-    outline: none;
-    width: 80px;
-   -webkit-border-top-left-radius: 10px;
-   -webkit-border-bottom-left-radius: 10px;
-   -moz-border-radius-topright: 10px;
-   -moz-border-radius-bottomleft: 10px;
-   border-top-left-radius: 10px;
-   border-bottom-left-radius: 10px;
-   font-family: 'Lato', sans-serif;
-}
-
-
-#searchbutton {
-    border: 1px solid #000000;
-    font-size: 18px;
-    padding: 11px;
-    background: #6A5ACD;
-    font-weight: bold;
-    cursor: pointer;
-    outline: none;
-    -webkit-border-top-right-radius: 10px;
-   -webkit-border-bottom-right-radius: 10px;
-   -moz-border-radius-topleft: 10px;
-   -moz-border-radius-bottomright: 10px;
-   border-top-right-radius: 10px;
-   border-bottom-right-radius: 10px;
-   font-family: 'Lato', sans-serif;
-   color: white;
-}
-
-
-#searchbutton:hover {
-    background: #ed4567;
-
-}
-
-.searchhh {
-    margin: -190px 0px 0px 1400px;
-    position: absolute;
-}
-
-
-
-/*Actual content starts*/
-
-h2 {
-    color: black;
-    text-align: left;
-    font-size: 25px;
-    margin: 50px 40px 50px 40px;
-    font-family: 'Lato', sans-serif;
-    text-decoration: underline;
-
-}
-
-
-.colorbox {
-    background-color: white;
-    margin: -90px 250px 0px 130px;
-    padding: 10px;
-    width: 1210px;
-    height: 1170px;
-    z-index: 1;
-    border-radius: 150px; /*
-    border: 30px solid #6A5ACD; 
-    border-left-style:inset;
-    border-right-style:outset; */
-
-    /* border: 80px solid transparent;
-    border-image: url("images/waterr.png") 5% stretch;*/
-}
-
-
-
 .desc {
-    
     text-align: left;
     color: black;
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
+    font-size: 3em;
+    font-family: "Quicksand", sans-serif;
 }
 
-span {
-    
-    text-align: center;
+/* back button */
+h2 button.back {
+    /*
+    width: 6%;
+    height: auto;
+    border-radius: 50%;
+    border-color: transparent;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    float: left;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    overflow: hidden;
+    -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.9));
+  filter: drop-shadow(2px 4px 2px 2px rgba(0,0,0,0.9)); 
+    */
+      display: inline-block;
+    background-color: transparent;
+  width: 4.2em;
+  height: auto;
+  border: 0.5em solid #333;
+  border-radius: 50%;
+ float: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+}
+
+h2 button.back:after {
+  content: '';
+  display: inline-block;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  margin-left: 0.4em;
+  width: 1.0em;
+  height: 1.0em;
+  border-top: 0.5em solid #333;
+  border-right: 0.5em solid #333;
+  -moz-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+ 
+}
+
+h2 button.back:hover {
+  border: 0.5em solid #6666FF;
+  border-top: 0.5em solid #6666FF;
+  border-right: 0.5em solid #6666FF;
+}
+
+/* arrow inside circle */
+h2 button.back:hover:after {
+  border-top: 0.5em solid #6666FF;
+    border-right: 0.5em solid #6666FF;
+}
+
+button.print {
+    width: 20%;
+    height: auto;
+    border-color: transparent;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    background-color: white;
     color: black;
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
-    margin: 0px 0px 0px 0px;
+    float: center;
+    overflow: hidden;
+     -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.9));
+  filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.9)); 
 }
 
+/* phones or tablets */
 
-/*Actual content starts*/
+@media only screen and (max-width: 768px) {
 
+button.back {
+    /*
+    width: 6%;
+    height: auto;
+    border-radius: 50%;
+    border-color: transparent;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    float: left;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    overflow: hidden;
+    -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.9));
+  filter: drop-shadow(2px 4px 2px 2px rgba(0,0,0,0.9)); 
+    */
+    display: block;
+    background-color: transparent;
+    width: 4.2em;
+    height: auto;
+    border: 0.5em solid #333;
+    border-radius: 50%;
+    float: left;
+    margin-top: -1%;
+    position: fixed;
+    z-index: 2;
 
+}
+button.back:after {
+  content: '';
+  display: inline-block;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  width: 1.0em;
+  height: 1.0em;
+  border-top: 0.5em solid #333;
+  border-right: 0.5em solid #333;
+  -moz-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+ 
+}
+    
+button.back:hover:after {
+   border-top: 0.5em solid #6666FF;
+    border-right: 0.5em solid #6666FF;
+    cursor: pointer;
+}
+    
+h2 button.back {
+    display: none;
+    
+}
+    
+button.back {
+        border-color: transparent;
+}
+    
+button.back:hover {
+  border-color: transparent;
+}
+    
+.main img {
+    margin-top: 3%;
+        border-radius: 50%;
+        max-width: 70%;
+        height: auto;
+    }
+    
+#directions {
+        line-height: 2em;
+    
+}
+    
+#directions ul li{
+    list-style-position: inside;
+    display: list-item;
+    overflow: auto;
+    list-style-type:circle;
+    padding-left: 2em;
+    
+}
+
+}
+
+/* dektop or general */
+
+.main img {
+    border-radius: 50%;
+}
 
 h3 {
-    color: black;
-    text-align: left;
-    font-size: 20px;
-    margin: 90px 0px 0px 30px;
-    font-family: 'Roboto', sans-serif;
-
+    color: white;
+    text-align: center;
+    font-family: "Pt Sans Narrow", sans-serif;
+    padding: 1%;
+    font-size: 1.5em;
+    background-color: cornflowerblue;
+    overflow: auto;
+    margin-bottom: 2em;
+    
+    
 }
-
-
 
 h4 {
     color: black;
-    text-align: left;
-    font-size: 20px;
-    margin: 90px 0px 0px 30px;    
-    font-family: 'Roboto', sans-serif;
-
+    text-align: middle;
+    font-family: "Quicksand", sans-serif;
+    padding: 2%;
+    font-size: 1.2em;
+    
 }
-
-.pancakes {
-    
-    height: 120px;
-    z-index: 8;
-    display: inline;
-    margin: -100px -50px 0px 80px;
-    float: left;
-    
- }
-
-
-
 
 #directions {
+    
     list-style-type: number;
-    font-family: "Century Gothic";  
-    font-size: 18px;
-    margin-top: 30px;
+    list-style-position: inside;
+    overflow: auto;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2em;
+    
+    text-align: left;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    
+    color: black; 
 }
 
+
+/* notes/ disclaimers */
+p.notes {
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.3em;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: left;
+    margin-bottom: 2em;
+    
+}
 
 .optional {
     color: crimson;
+    font-weight: bold;
 }
 
 .tutoriall {
-    margin: -30px 420px 20px 420px;
-    width: 600px;
-    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     z-index: 1;
     border-radius: 50%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
 
- }
 
-button {
+
+button.right {
     display: inline;
-    margin: -20px -530px 0px 550px;
     color: black;
     background-color: white;
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    height: 3em;
+    width: 3em;
+    margin-bottom: 5%;
 }
 
-button:hover {
+button.left {
+    margin-right: 1%;
+    display: inline;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    margin-bottom: 5%;
+
+}
+
+button.right:hover, button.left:hover, button.print:hover {
     background-color: crimson;
 }
-
-footer {
-    position: absolute;
-    right: 0;
-    left: 0;
-    margin: 100px -8px 0px -8px;
-    padding: 10px;
-    text-align: center;
-    font-family: "Century Gothic";
-    color: black;
-    font-size: 14px;
-    
- }
-
-img.icons {
-      height:30px;
-      width:30px;
-      margin: -90px 0px 80px 0px;
-      display: inline-block;
-      text-align: center;
- }

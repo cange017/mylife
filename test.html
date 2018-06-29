@@ -1,55 +1,89 @@
 <!DOCTYPE html>
 <html>
 
-<div id="align">
-<div id="wrapper">
+
 
 <head>
-	
-	<title>MY LIFE</title>
-	<link href="test.css" rel="stylesheet"/>
-	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Helvetica Neue|Great+Vibes|Julius+Sans+One|Prata|Quicksand|Sacramento" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script type="text/javascript">
-		function active(){
-			var searchbar = document.getElementById('searchbar');
-			if(searchbar.value == 'Search...'){
-				searchbar.value = ''
-				searchbar.placeholder = 'Search...'
-			}
-		}
-		function inactive(){
-			var searchbar = document.getElementById('searchbar');
-			if(searchbar.value == ''){
-				searchbar.value = 'Search...'
-				searchbar.placeholder = ''
-			}
-		}
-	</script>
+  
+  <title>MY LIFE</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="content.css" rel="stylesheet"/>
+  <link href="test.css" rel="stylesheet"/>
 
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Helvetica Neue|Great+Vibes|Julius+Sans+One|Prata|Quicksand|Sacramento" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 
 </head>
 
 
 <body>
-<header>
 
-<h1>Simple Pretty Perfect</h1>
+<div id="wrapper">
+<div class="container-fluid">
 
-<a href="test.html"><img class="logo" src="images/logo.png" style="width: 12%; height: 12%; z-index: 1; margin-top: 0px; margin-left: 5px "></a>
+<nav>
+    <a href="test.html"><img class="logo" src="photoshop/vertical.png"></a>
+        
+<ul>
+    
+  <li class="selected"><a href="test.html">home</a></li>
+  <li><a href="beauty gallery.html">beauty</a></li>
+  <li><a href="health gallery.html">health</a></li>
+  <li><a href="happiness gallery.html">happiness</a></li>
+  <li><a href="about.html">contact</a></li>
 
-</header>
+</ul>
+    <div class="iconsnav">
+  <a href="health2.html"><img class="icons" src="social media icons/instagram.png" width="10%" /></a>
+ 
+  <a href="https://www.facebook.com/sharer/sharer.php?u=file%3A///C%3A/Users/Catherine/Desktop/Life.com%2520-%2520Copy%2520(2)/test.html"><img class="icons" src="social media icons/facebook.png" width="10%" /></a>
+  <a href="https://twitter.com/home?status=file%3A///C%3A/Users/Catherine/Desktop/Life.com%2520-%2520Copy%2520(2)/test.html"><img class="icons" src="social media icons/twitter.png" width="10%" /></a>
+  <a href="https://plus.google.com/share?url=https%3A//twitter.com/home?status=file%253A///C%253A/Users/Catherine/Desktop/Life.com%252520-%252520Copy%252520(2)/test.html"><img class="icons" src="social media icons/google.png" width="10%" /></a>
+  
+    </div>
+</nav>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript">
+	$("nav").addClass("js").before('<div id="menu">&#9776;</div>');
+	$("#menu").click(function(){
+		$("nav").toggle();
+	});
+	$(window).resize(function(){
+		if(window.innerWidth > 768) {
+			$("nav").removeAttr("style");
+		}
+	});
+</script>
+<!--
+<div class="searchhh" >
+<form action="" method="post">
+  <input type="text" id="searchbar" placeholder="" value="Search..." maxlength="40" autocomplete="on" onMouseDown= "active();" onBlur="inactive();"/><input type="submit" id="searchbutton" value="Go!"/>
+</form>
+</div>
+-->
+  
 
+<!--- Actual content starts -->
 
-<div class="slideshow" >
+<article>
+    
+
+<div class="boxed">
+    
+    <div class="slideshow" >
   <img class="mySlides" src="images/healthy.jpg"  style="width:70%">
   <img class="mySlides" src="images/yumm.jpg"  style="width:70%"> 
   <img class="mySlides" src="images/running-runner-long-distance-fitness-40751.jpeg"  style="width:70%"> 
 
 </div>
 
+</div>
 
+
+</article>
 <script>
 var myIndex = 0;
 carousel();
@@ -67,281 +101,22 @@ function carousel() {
 }
 </script>
 
-
-
-<div class="searchhh" >
-<form action="" method="post">
-	<input type="text" id="searchbar" placeholder="" value="Search..." maxlength="40" autocomplete="on" onMouseDown= "active();" onBlur="inactive();"/><input type="submit" id="searchbutton" value="Go!"/>
-</form>
-</div>
-
-
-<!--- Navigation starts -->
-
-<nav id="menu">
-<ul>
-  <li  class="selected"><a href="test.html">HOME</a></li>
-  <li><a href="beauty gallery.html">BEAUTY</a></li>
-  <li><a href="health gallery.html">HEALTH</a></li>
-  <li><a href="happiness gallery.html">HAPPINESS</a></li>
-  <li><a href="about.html">CONTACT</a></li>
-
-
-
-<div class="current">
-<div class="ctoparr"></div>   
-<div class="cback"></div>
-<div class="cbotarr"></div>
-
-</div>
-</ul>
-
-</nav>
-
-
-
-
-
-<style>
-@import url(http://fonts.googleapis.com/css?family=Lato:300|Playfair+Display:900);
-
-#menu {
-display: inline-block;
-position: fixed;
-height: 65px;
-margin: -80px 100px 800px 190px;
-text-align: center;
-white-space: nowrap;
-width: 100%;
-z-index: 8;
-font-family: "Lato", sans-serif;
-text-rendering: optimizeLegibility;
-
-}
-#menu ul {
-margin: 0;
-padding: 0;
-position: relative;
-color: transparent;
-}
-#menu ul:after {
-clear: both;
-content: "";
-display: block;
-color: transparent;
-}
-
-#menu li {
-background-position: 50% center;
-display: block;
-float: left;
-font-size: 18px;
-font-weight: bold;
-color: black;
-height: 5px;
-line-height: 40px;
-margin-right: 1%;
-position: relative;
-white-space: nowrap;
-width: 13%;
-z-index: 2;
-
-
-}
-#menu li:after {
-background: url("../images/bg.png") repeat scroll 0 0;
-content: "";
-height: 10%;
-position: absolute;
-right: -10%;
-top: 0;
-width: 13%;
-
-
-}
-#menu li:nth-child(1):before {
-background: url("../images/bg.png") repeat scroll 0 0;
-content: "";
-position: absolute;
-top: 0;
-width: 13%;
-}
-
-#menu li:nth-child(1) {
-
-margin-left: 3%;
-}
-
-#menu a {
-
-display: block;
-height: 30%;
-text-decoration: none;
-color: black;
-
-}
-
-.current{
-height: 90px;
-left: 7.5%;
-margin-left: -50px;
-position: absolute;
-top: -13px;
-width: 100px;
--webkit-transition: all 400ms cubic-bezier(0, 1.1, 0.5, 1.1);
--moz-transition: all 400ms cubic-bezier(0, 1.1, 0.5, 1.1);
--o-transition: all 400ms cubic-bezier(0, 1.1, 0.5, 1.1);
--ms-transition: all 400ms cubic-bezier(0, 1.1, 0.5, 1.1);
-transition: all 400ms cubic-bezier(0, 1.1, 0.5, 1.1);
-
-}
-.cback {
-background-color:#c12525;
-
-border-radius: 30px;
-
-height: 80%;
-position: absolute;
-width: 160%;
-
-}
-.ctoparr {
-height: 12px;
-border-radius: 80px;
-left: 0;
-overflow: hidden;
-position: absolute;
-top: 13px;
-width: 108%;
-margin-left: 28px;
-z-index: 2;
-
-}
-.ctoparr:before {
-
-content: "";
-height: 10px;
-left: 0%;
-position: absolute;
-top: -10px;
-width: 108%;
-}
-.ctoparr:after{
-border-left: 8px solid transparent;
-border-right: 8px solid transparent;
-
-content: "";
-height: 0;
-left: 30%;
-margin-left: 10px;
-position: absolute;
-top: 0;
-width: 0;
-}
-.cbotarr {
-	border-radius: 100px;
-bottom: 20px;
-height: 12px;
-left: 10;
-margin-left: 28px;
-overflow: hidden;
-position: absolute;
-width: 108%;
-z-index: 2;
-}
-.cbotarr:before {
-border-radius: 100px;
-bottom: -10px;
-
-content: "";
-height: 10px;
-left: 0%;
-position: absolute;
-width: 108%;
-}
-.cbotarr:after {
-border-bottom: 12px solid #c12525;
-border-left: 8px solid transparent;
-border-right: 8px solid transparent;
-bottom: 0;
-content: "";
-height: 0;
-left: 30%;
-margin-left: 10px;
-position: absolute;
-width: 0;
-}
-
-#menu li.selected:nth-child(1) ~ .current {
-left: 7.5%;
-
-}
-#menu li.selected:nth-child(2) ~ .current {
-left: 21.5%;
-}
-#menu li.selected:nth-child(3) ~ .current {
-left: 35.5%;
-}
-#menu li.selected:nth-child(4) ~ .current {  
-left: 49.5%;
-}
-#menu li.selected:nth-child(5) ~ .current {
-left: 63.5%;
-}
-#menu li.selected:nth-child(6) ~ .current {
-left: 77.5%; 
-}
-#menu li.selected:nth-child(7) ~ .current {
-left: 91.5%; 
-}
-#menu li:nth-child(1):hover ~ .current {
-left: 7.5%;
-}
-#menu li:nth-child(2):hover ~ .current {
-left: 21.5%;
-}
-#menu li:nth-child(3):hover ~ .current {
-left: 35.5%;
-}
-#menu li:nth-child(4):hover ~ .current {  
-left: 49.5%;
-}
-#menu li:nth-child(5):hover ~ .current {
-left: 63.5%;
-}
-#menu li:nth-child(6):hover ~ .current {
-left: 77.5%; 
-}
-#menu li:nth-child(7):hover ~ .current {
-left: 91.5%; 
-}
-
-
-</style>
-
-
-<!--- Navigation ends -->
-
-
+<!--- Actual content ends -->
 
 <footer>
-	<p><strong>&#169; COPYRIGHT 2017 CATHERINE ANGELINI</strong></p>
-<div class="icons">
-	<a href="health2.html"><img class="icons" src="social media icons/instagram.png" width="10%" /></a>
-	<a href="http://www.tumblr.com/share?v=3&u=file%3A%2F%2F%2FC%3A%2FUsers%2FCatherine%2FDesktop%2FLife.com%2520-%2520Copy%2520(2)%2Ftest.html&t="><img class="icons" src="social media icons/tumblr.png" width="10%" /></a>
-	<a href="https://www.facebook.com/sharer/sharer.php?u=file%3A///C%3A/Users/Catherine/Desktop/Life.com%2520-%2520Copy%2520(2)/test.html"><img class="icons" src="social media icons/facebook.png" width="10%" /></a>
-	<a href="https://twitter.com/home?status=file%3A///C%3A/Users/Catherine/Desktop/Life.com%2520-%2520Copy%2520(2)/test.html"><img class="icons" src="social media icons/twitter.png" width="10%" /></a>
-	<a href="https://plus.google.com/share?url=https%3A//twitter.com/home?status=file%253A///C%253A/Users/Catherine/Desktop/Life.com%252520-%252520Copy%252520(2)/test.html"><img class="icons" src="social media icons/google.png" width="10%" /></a>
-	
-</div>
+  <p><strong>&#169; COPYRIGHT 2018 CATHERINE ANGELINI</strong></p>
+  <div class="icons">
+  <a href="health2.html"><img class="icons" src="social media icons/instagram.png" width="10%" /></a>
+  
+  <a href="https://www.facebook.com/sharer/sharer.php?u=file%3A///C%3A/Users/Catherine/Desktop/Life.com%2520-%2520Copy%2520(2)/test.html"><img class="icons" src="social media icons/facebook.png" width="10%" /></a>
+  <a href="https://twitter.com/home?status=file%3A///C%3A/Users/Catherine/Desktop/Life.com%2520-%2520Copy%2520(2)/test.html"><img class="icons" src="social media icons/twitter.png" width="10%" /></a>
+  <a href="https://plus.google.com/share?url=https%3A//twitter.com/home?status=file%253A///C%253A/Users/Catherine/Desktop/Life.com%252520-%252520Copy%252520(2)/test.html"><img class="icons" src="social media icons/google.png" width="10%" /></a>
+  
+    </div>
 </footer>
 
 
 
 </body>
-
 </div>
-
-</div>
-
 </html>
