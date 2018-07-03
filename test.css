@@ -1,0 +1,35 @@
+.boxed {
+    background-color: transparent;
+    
+    
+}
+
+img.mySlides {
+    width: 180%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.slideshow {
+    
+ }
+
+.slideshow:hover{
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+
+    img.mySlides{
+    margin-top: 30%;
+    width: 150%;
+    }
+}
+
+footer {
+   margin-top: 40%;
+}

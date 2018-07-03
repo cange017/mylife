@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 @import 'https://fonts.googleapis.com/css?family=Droid+Sans|Quicksand|Raleway|Goudy+Bookletter+1911|Abril+Fatface|Yanone+Kaffeesatz|Hammersmith+One|Lato|PT+Sans+Narrow|Open+Sans+Condensed|Old+Standard+TT|Merriweather|Montserrat|Roboto|Titillium+Web|Karla|Oswald|Glegoo|Courgette|Abel|Sniglet|PT+Sans|PT+Serif|PT+Mono';
@@ -171,3 +172,178 @@ img.icons {
  }
 
 
+=======
+
+
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Quicksand|Raleway|Goudy+Bookletter+1911|Abril+Fatface|Yanone+Kaffeesatz|Hammersmith+One|Lato|PT+Sans+Narrow|Open+Sans+Condensed|Old+Standard+TT|Merriweather|Montserrat|Roboto|Titillium+Web|Karla|Oswald|Glegoo|Courgette|Abel|Sniglet|PT+Sans|PT+Serif|PT+Mono';
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    margin: 0px;
+  
+
+}
+    
+
+
+h1 {
+    
+    text-align: center;
+    font-family: "Pt Sans Narrow";
+    font-size:2.3em;
+    vertical-align: middle;
+    z-index: 1;
+    color: black;
+    margin-bottom: 0;
+    text-rendering: optimizeLegibility;
+    }
+ 
+h4 {
+    
+    font-family: "Quicksand";
+   font-weight: 300;
+	font-size: 1.2rem;
+	margin-top: .4rem;
+	outline: none; 
+    text-align: center;
+    
+    vertical-align: middle;
+    z-index: 1;
+    color: black;
+    margin-bottom: 0;
+    text-rendering: optimizeLegibility;
+}
+@media only screen and (max-width: 768px) {
+   
+    .logo {
+        width: 40%;
+        height: auto;
+       margin-top: 0%;
+        min-width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        -webkit-filter: drop-shadow(15px 15px 8px rgba(0,0,0,0.9));
+  filter: drop-shadow(15px 15px 7px rgba(0,0,0,0.9));
+    }
+
+}
+    
+body {
+    
+    background-image: url("images/taduuda-196007.jpg"); 
+    
+    background-color: white;
+    
+animation: colorchange 30s infinite;  /* animation-name followed by duration in seconds
+          you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 30s infinite; /* Chrome and Safari */
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 97vh;
+	-webkit-font-smoothing: antialiased;
+    background-blend-mode: hard-light;
+    
+	background-size: cover;
+	background-position: center;
+
+    }
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+.logo {
+        -webkit-filter: drop-shadow(10px 10px 8px rgba(0,0,0,0.9));
+  filter: drop-shadow(10px 10px 7px rgba(0,0,0,0.9));   
+    }
+/*
+75% {
+  
+  margin-left: 0%;
+  width: 100%;
+}
+
+
+body {
+    
+    animation-duration: 4s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+*/
+    @keyframes colorchange
+    {
+      0%   {background-color:#FF7A5C ;}
+      25%  {background-color: blue;}
+      50%  {background-color: #66FFC2;}
+      75%  {background-color: #B8468D;}
+      100% {background-color: #FF7A5C;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      %   {background-color: blue;}
+      25%  {background-color: blue;}
+      50%  {background-color: crimson;}
+      75%  {background-color: yellow;}
+      100% {background-color: crimson;}
+    }
+    
+
+}
+
+
+img.logo:hover {
+    
+filter:opacity(0.6);
+  
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 8em -8px 0px -8px;
+    text-align: center;
+    
+ }
+
+img.icons {
+    
+      height:auto;
+      width: 1.5em;
+      margin: 0px 0px 0px 0px;
+      display: inline-block;
+      text-align: center;
+ }
+
+
+>>>>>>> 538daa541c5094da055fb843d6a1bc2e1f496f33
