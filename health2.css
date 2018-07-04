@@ -270,4 +270,5 @@ button.left {
 
 button.right:hover, button.left:hover, button.print:hover {
     background-color: crimson;
+    cursor: pointer;
 }
