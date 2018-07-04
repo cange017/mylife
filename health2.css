@@ -168,8 +168,18 @@ button.back:hover {
     list-style-type:circle;
     padding-left: 2em;
     
+    
 }
-
+    
+    h3 {
+        color: black;
+    text-align: center;
+    font-family: "Droid Sans", sans-serif;
+    font-size: 1.3em;
+    text-decoration-line: underline;
+    overflow: hidden;
+    margin-bottom: 2em;
+    }
 }
 
 /* dektop or general */
@@ -178,28 +188,49 @@ button.back:hover {
     border-radius: 50%;
 }
 
+@media only screen and (min-width: 768px) {
+
 h3 {
-    color: white;
+    color: black;
     text-align: center;
-    font-family: "Pt Sans Narrow", sans-serif;
-    padding: 1%;
-    font-size: 1.5em;
-    background-color: cornflowerblue;
-    overflow: auto;
+    font-family: "Droid Sans", sans-serif;
+    font-size: 1.3em;
+    text-decoration-line: underline;
+    overflow: hidden;
     margin-bottom: 2em;
+       
+}
+
+#bottom {
+    margin-top: 30%;
+    padding: 2%;
+    width: 100%;
+}
+
+#left {
+    float: left;
+    display: inline-block;
+    width: 50%;
     
+}
+
+#right {
+    float: right;
+    display: inline-block;
+    width: 50%;
+    border-left: 1px solid black;
     
 }
 
 h4 {
     color: black;
     text-align: middle;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Droid Sans", sans-serif;
     padding: 2%;
     font-size: 1.2em;
     
 }
-
+}
 #directions {
     
     list-style-type: number;
@@ -237,7 +268,7 @@ p.notes {
 .tutoriall {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
     z-index: 1;
     border-radius: 50%;
     margin-bottom: 2%;

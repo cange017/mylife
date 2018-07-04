@@ -12,7 +12,7 @@ h1 {
     
     text-align: center;
     font-family: "Pt Sans Narrow";
-    font-size:2.3em;
+    font-size: 2.0em;
     vertical-align: middle;
     z-index: 1;
     color: black;
@@ -22,7 +22,7 @@ h1 {
  
 h4 {
     
-    font-family: "Quicksand";
+    font-family: "Droid Sans";
     font-weight: 300;
   	font-size: 1.2rem;
   	margin-top: .4rem;
@@ -53,7 +53,7 @@ h4 {
     
 body {
     
-    background-image: url("images/taduuda-196007.jpg"); 
+    background-image: url("images/tree.jpg");
     background-color: white;
     animation: colorchange 30s infinite;  /* animation-name followed by duration in seconds
           you could also use milliseconds (ms) or something like 2.5s */
@@ -81,9 +81,20 @@ body {
   height: auto;
   z-index: -100;
 }
+
+#box {
+    background: white;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    vertical-align: middle;
+}
 .logo {
     -webkit-filter: drop-shadow(10px 10px 8px rgba(0,0,0,0.9));
-    filter: drop-shadow(10px 10px 7px rgba(0,0,0,0.9));   
+    filter: drop-shadow(10px 10px 7px rgba(0,0,0,0.9));  
+    padding-top: 10%;
+    
     }
 /*
 75% {
@@ -147,15 +158,20 @@ footer {
     position: absolute;
     right: 0;
     left: 0;
-    margin: 8em -8px 0px -8px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
     text-align: center;
+     width: 40%;
+    background: white;
     
  }
 
 img.icons {
-    
+   
       height:auto;
-      width: 1.5em;
+      width: 1.4em;
       margin: 0px 0px 0px 0px;
       display: inline-block;
       text-align: center;

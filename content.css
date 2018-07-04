@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Quicksand|Raleway|Goudy+Bookletter+1911|Abril+Fatface|Yanone+Kaffeesatz|Hammersmith+One|Lato|PT+Sans+Narrow|Open+Sans+Condensed|Old+Standard+TT|Merriweather|Montserrat|Roboto|Titillium+Web|Karla|Oswald|Glegoo|Courgette|Abel|Sniglet|PT+Sans|PT+Serif|PT+Mono';
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Quicksand|Raleway|Goudy+Bookletter+1911|Abril+Fatface|Yanone+Kaffeesatz|Hammersmith+One|Lato|PT+Sans+Narrow|Open+Sans+Condensed|Old+Standard+TT|Merriweather|Montserrat|Roboto|Titillium+Web|Karla|Oswald|Glegoo|Courgette|Abel|PT+Sans|PT+Serif|PT+Mono';
 
 #wrapper {
     margin-left: auto;
@@ -8,9 +8,9 @@
 }
 
 body {
-    background-color: #fce8e8;
-    /*
-  background-image: url("images/rsz_joe-cooke-72649.jpg");
+    
+    
+  background-image: url("images/tree.jpg");
   background-size: 1700px 800px;
 background-repeat: no-repeat;
     background-attachment: fixed;
@@ -134,10 +134,10 @@ h1 {
     overflow: auto;
 }
 h2 {
-    font-family: "Pt Sans Narrow", sans-serif;
+    font-family: "MerriWeather", sans-serif;
     text-align: center;
     letter-spacing: 3px;
-    font-size: 170%;
+    font-size: 150%;
     display: inline-block;
     width: 100%;
     color: black;
@@ -189,7 +189,7 @@ div.gallery img {
 
 div.desc {
     padding: 2%;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Droid Sans", sans-serif;
     font-weight: 600;
     text-align: center;
     color: black;
@@ -266,7 +266,7 @@ div.desc2 a {
     li:last-child {}
     
     li a {
-        font-family: "Pt Sans Narrow", sans-serif;
+        font-family: "Droid Sans", sans-serif;
         display: block;
         width: 80%;
         background: white;
@@ -385,14 +385,13 @@ div.desc2 a {
     }
     
     nav .logo {
-        width: 8vw;
-        height: 11vh;
+        width: 8%;
+        height: 11%;
         left: 0;
         margin-top: 0%;
         display: inline-block;
         vertical-align: top;
-        position: fixed;
-        border-right: 2px solid black;
+        position: fixed;;
         background-color: #F4D03F;
         
     }
@@ -409,9 +408,7 @@ div.desc2 a {
         top: 0;
         bottom: 0;
         width: 100%;
-        right: 0;
-        left: 0;
-        line-height: 4vh;
+        
         /* list-style-type: none;
     padding: 0;
     margin: 0;
@@ -425,18 +422,18 @@ div.desc2 a {
     }
     
     nav li {
-        display: inline-block;
+        display:inline-block;
+        
     }
     
     li a {
         display: inline-block;
         color: black;
-        padding: 4.1vh 4vw 20px;
-        font-family: "Pt Sans Narrow", sans-serif;
+        padding: 4.1vh 3vw 30px;
+        font-family: "Droid Sans", sans-serif;
         text-transform: capitalize;
-        font-size: 110%;
+        font-size: 100%;
         letter-spacing: 1px;
-        float: middle;
         text-align: center;
         text-decoration: none;
     }
@@ -470,9 +467,9 @@ div.desc2 a {
     color: black;
     text-decoration-line: none;
     font-size: 100%;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Droid Sans", sans-serif;
     border: 2px solid black;
-    padding: 1%;
+    padding: 1.2%;
     border-radius: 100px;
     background: pink;
 }
@@ -486,7 +483,7 @@ div.desc2 a {
 
 #contactp {
     color: black;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Droid Sans", sans-serif;
     font-size: 120%;
     width: 50%;
     margin-left: auto;
@@ -511,12 +508,12 @@ footer {
     right: 0;
     left: 0;
     margin: 10% -8px 0px -8px;
-    padding: 2%;
+    padding: 5%;
     text-align: center;
-    font-family: "Quicksand", sans-serif;
+    font-family: "MerriWeather", sans-serif;
     background-color: white;
     color: black;
-    font-size: 16px;
+    font-size: 12px;
 }
 img.icons {
     height: auto;
