@@ -464,6 +464,48 @@ div.desc2 a {
         height: auto;
     }
 }
+
+#email {
+    text-align: center;
+    color: black;
+    text-decoration-line: none;
+    font-size: 100%;
+    font-family: "Quicksand", sans-serif;
+    border: 2px solid black;
+    padding: 1%;
+    border-radius: 100px;
+    background: pink;
+}
+
+#email:hover {
+    background:#09C;
+    -webkit-transition:background 0.3s ease-in-out;
+    -moz-transition:background 0.3s ease-in-out;
+    transition:background-color 0.3s ease-in-out;
+}
+
+#contactp {
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-size: 120%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+#contact {
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+
+#contactmeh2 {
+    background: white;
+    margin-top: 5%;
+    text-decoration-line: underline;
+}
+
 footer {
     position: absolute;
     right: 0;
