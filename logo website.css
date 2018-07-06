@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Quicksand|Raleway|Goudy+Bookletter+1911|Abril+Fatface|Yanone+Kaffeesatz|Hammersmith+One|Lato|PT+Sans+Narrow|Open+Sans+Condensed|Old+Standard+TT|Merriweather|Montserrat|Roboto|Titillium+Web|Karla|Oswald|Glegoo|Courgette|Abel|Sniglet|PT+Sans|PT+Serif|PT+Mono';
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Quicksand|Raleway|Goudy+Bookletter+1911|Abril+Fatface|Playfair+Display|Yanone+Kaffeesatz|Hammersmith+One|Lato|PT+Sans+Narrow|Open+Sans+Condensed|Old+Standard+TT|Merriweather|Montserrat|Roboto|Titillium+Web|Karla|Oswald|Glegoo|Courgette|Abel|Sniglet|PT+Sans|PT+Serif|PT+Mono';
 
 #wrapper {
     margin-left:auto;
@@ -11,8 +11,8 @@
 h1 {
     
     text-align: center;
-    font-family: "Pt Sans Narrow";
-    font-size: 2.0em;
+    font-family: "karla",sans-serif;
+    font-size: 150%;
     vertical-align: middle;
     z-index: 1;
     color: black;
@@ -22,7 +22,7 @@ h1 {
  
 h4 {
     
-    font-family: "Droid Sans";
+    font-family: "karla";
     font-weight: 300;
   	font-size: 1.2rem;
   	margin-top: .4rem;
@@ -38,15 +38,22 @@ h4 {
 @media only screen and (max-width: 768px) {
    
     .logo {
-        width: 40%;
         height: auto;
         margin-top: 0%;
-        min-width: 40%;
+        min-width: 50%;
         display: block;
         margin-left: auto;
         margin-right: auto;
         -webkit-filter: drop-shadow(15px 15px 8px rgba(0,0,0,0.9));
         filter: drop-shadow(15px 15px 7px rgba(0,0,0,0.9));
+    }
+    
+    #box {
+        min-width: 70%;
+    }
+    
+    footer {
+        min-width: 70%;
     }
 
 }
