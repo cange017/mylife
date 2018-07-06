@@ -15,15 +15,20 @@
     margin-top: 10%;
     }
     
-    p #definition {
-        max-width: 40%;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    p#definition {
+        min-width: 90%;
     }
 }
+
 
 #habits {
     
     font-family: "karla", sans-serif;  
-    font-size: 1.2em;
+    font-size: 1.0em;
     color: black;
     text-align: justify;
     padding-left: 5%;
@@ -49,7 +54,7 @@ h2 {
 h5 {
     font-family: "Playfair Display", sans-serif;
     color: black;
-    font-size: 1.8em;
+    font-size: 1.5em;
     
     
     
@@ -67,16 +72,16 @@ p#under {
 p#definition {
     font-family: "Merriweather", sans-serif;
     color: black;
-    font-size: 1.1em;
+    font-size: 1.0em;
     padding: 3%;
     line-height: 2.0;
     text-align: justify;
-    width: 90%;
+    max-width: 40%;
     display: inline-block;
 }
 
 #date {
     font-family: "Karla", sans-serif;
-    font-size: 65%;
+    font-size: 60%;
     text-transform: capitalize;
 }

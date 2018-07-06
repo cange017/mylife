@@ -137,7 +137,7 @@ h2 {
     font-family: "Playfair Display", sans-serif;
     text-align: center;
     letter-spacing: 3px;
-    font-size: 150%;
+    font-size: 140%;
     display: inline-block;
     width: 100%;
     color: black;
@@ -192,7 +192,7 @@ div.desc {
     font-weight: 600;
     text-align: center;
     color: black;
-    font-size: 115%;
+    font-size: 110%;
     line-height: 2.0;
 }
 
@@ -202,7 +202,7 @@ div.desc2 {
     font-weight: 500;
     text-align: center;
     color: black;
-    font-size: 1.1em;
+    font-size: 1.0em;
     
     margin-bottom: 2%;
 }
@@ -433,7 +433,7 @@ div.desc2 a {
         padding: 4.1vh 3vw 30px;
         font-family: "Karla", sans-serif;
         text-transform: capitalize;
-        font-size: 100%;
+        font-size: 90%;
         letter-spacing: 1px;
         text-align: center;
         text-decoration: none;
