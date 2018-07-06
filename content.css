@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Quicksand|Raleway|Goudy+Bookletter+1911|Abril+Fatface|Yanone+Kaffeesatz|Hammersmith+One|Lato|PT+Sans+Narrow|Open+Sans+Condensed|Old+Standard+TT|Merriweather|Montserrat|Roboto|Titillium+Web|Karla|Oswald|Glegoo|Courgette|Abel|PT+Sans|PT+Serif|PT+Mono';
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Quicksand|Raleway|Goudy+Bookletter+1911|Abril+Fatface|Playfair+Display|Yanone+Kaffeesatz|Hammersmith+One|Lato|PT+Sans+Narrow|Open+Sans+Condensed|Old+Standard+TT|Merriweather|Montserrat|Roboto|Titillium+Web|Karla|Oswald|Glegoo|Courgette|Abel|Source+Sans+Pro|PT+Sans|PT+Serif|PT+Mono';
 
 #wrapper {
     margin-left: auto;
@@ -134,7 +134,7 @@ h1 {
     overflow: auto;
 }
 h2 {
-    font-family: "MerriWeather", sans-serif;
+    font-family: "Playfair Display", sans-serif;
     text-align: center;
     letter-spacing: 3px;
     font-size: 150%;
@@ -188,8 +188,7 @@ div.gallery img {
 }
 
 div.desc {
-    padding: 2%;
-    font-family: "Droid Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     font-weight: 600;
     text-align: center;
     color: black;
@@ -199,7 +198,7 @@ div.desc {
 
 div.desc2 {
     padding: 1%;
-    font-family: "Pt Sans Narrow", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: 500;
     text-align: center;
     color: black;
@@ -242,8 +241,9 @@ div.desc2 a {
     }
     
     .boxed {
-        margin-top: 20%;
+        margin-top: 30%;
         width: 100%;
+        margin-bottom: 10%;
     }
     
     nav.logo {
@@ -267,7 +267,7 @@ div.desc2 a {
     li:last-child {}
     
     li a {
-        font-family: "Droid Sans", sans-serif;
+        font-family: "karla", sans-serif;
         display: block;
         width: 80%;
         background: white;
@@ -315,8 +315,8 @@ div.desc2 a {
     li a {
         display: inline-block;
         color: black;
-        padding: 4.1vh 4vw 20px;
-        font-family: "Pt Sans Narrow", sans-serif;
+        padding: 4.1vh 5vw 25px;
+        font-family: "Karla", sans-serif;
         text-transform: capitalize;
         font-size: 110%;
         letter-spacing: 1px;
@@ -431,7 +431,7 @@ div.desc2 a {
         display: inline-block;
         color: black;
         padding: 4.1vh 3vw 30px;
-        font-family: "Droid Sans", sans-serif;
+        font-family: "Karla", sans-serif;
         text-transform: capitalize;
         font-size: 100%;
         letter-spacing: 1px;
@@ -468,7 +468,7 @@ div.desc2 a {
     color: black;
     text-decoration-line: none;
     font-size: 100%;
-    font-family: "Droid Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     border: 2px solid black;
     padding: 1.2%;
     border-radius: 100px;
@@ -484,7 +484,7 @@ div.desc2 a {
 
 #contactp {
     color: black;
-    font-family: "Droid Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 120%;
     width: 50%;
     margin-left: auto;
@@ -511,10 +511,11 @@ footer {
     margin: 10% -8px 0px -8px;
     padding: 5%;
     text-align: center;
-    font-family: "MerriWeather", sans-serif;
+    font-family: "Karla", sans-serif;
     background-color: white;
+    text-transform:capitalize;
     color: black;
-    font-size: 12px;
+    font-size: 80%;
 }
 img.icons {
     height: auto;

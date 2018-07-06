@@ -193,7 +193,7 @@ button.back:hover {
 h3 {
     color: black;
     text-align: center;
-    font-family: "Droid Sans", sans-serif;
+    font-family: "Playfair Display", sans-serif;
     font-size: 1.3em;
     text-decoration-line: underline;
     overflow: hidden;
@@ -225,7 +225,7 @@ h3 {
 h4 {
     color: black;
     text-align: middle;
-    font-family: "Droid Sans", sans-serif;
+    font-family: "karla", sans-serif;
     padding: 2%;
     font-size: 1.2em;
     
@@ -236,7 +236,7 @@ h4 {
     list-style-type: number;
     list-style-position: inside;
     overflow: auto;
-    font-family: "Quicksand", sans-serif;
+    font-family: "karla", sans-serif;
     font-size: 1.2em;
     
     text-align: left;
@@ -251,12 +251,14 @@ h4 {
 /* notes/ disclaimers */
 p.notes {
     color: black;
-    font-family: "Quicksand", sans-serif;
+    font-family: "karla", sans-serif;
     font-size: 1.3em;
-    margin-left: 3%;
-    margin-right: 3%;
-    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     margin-bottom: 2em;
+    width: 50%;
+    line-height: 1.5;
     
 }
 
