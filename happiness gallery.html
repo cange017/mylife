@@ -78,14 +78,14 @@
 <div class="boxed">
     
     
-<h2>personal growth</h2>
+<h2 id="happiness-h2-01">personal growth</h2>
     
     <div class="responsive">
     <div class="gallery">
     <a href="happiness.html">
       <img rel="prefetch" src="images/happy_opt.jpg" width="600" height="400">
     </a>
-    <div class="desc">Habits of Happy People</div>
+    <div id="happiness-subtitle-01" class="desc">Habits of Happy People</div>
   </div>
 </div>
 
@@ -110,7 +110,23 @@
 
 </article>
 
-
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDUg3bGKgcYKFpTN8Ucl9nMVcjLmd1yaCA",
+    authDomain: "my-life-website.firebaseapp.com",
+    databaseURL: "https://my-life-website.firebaseio.com",
+    projectId: "my-life-website",
+    storageBucket: "",
+    messagingSenderId: "119895755441"
+  };
+  firebase.initializeApp(config);
+</script>
+    
+<script src="main.js"></script>
+    
 <!--- Actual content ends -->
 
 <footer>

@@ -12,7 +12,8 @@ h1 {
     margin-right: auto;
     text-align: center;
     font-family: "Playfair Display", sans-serif;
-    font-size: 150%;
+    margin-top: -15%;
+    font-size: 300%;
     letter-spacing: 3px;
     color: white;
     text-rendering: optimizeLegibility;
@@ -26,10 +27,9 @@ h4 {
     
     font-family: "karla", sans-serif;
     font-weight: 300;
-  	font-size: 120%;
-    width: 80%;
-    padding: 3%;
-    letter-spacing: 2px;
+  	font-size: 150%;
+    width: 100%;
+    letter-spacing: 3px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;

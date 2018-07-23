@@ -118,27 +118,28 @@
 
 <div class="boxed">
     
+
+<div class="title">
     
-    <div class="title">
-    <h1>Hey there!</h1>
-        <h4>Whoever said that being healthy and happy while at it was hard has probably never experienced being a real foodie, but I can show you how it's really done.</h4>
-    </div>
-   
-  
+    <h1 id="fireHeading"></h1>
+    <h4 id="message"></h4>
+    
+</div> 
+
+
+
 <div class="slideshow" >
    
   <img rel="prefetch" class="mySlides" src="images/healthy.jpg" >
-    
   <img rel="prefetch" class="mySlides" src="images/yumm.jpg" > 
-  <img rel="prefetch" class="mySlides" src="images/running-runner-long-distance-fitness-40751.jpeg" > 
-
-</div>
     
-
-
+   
+  <img rel="prefetch" class="mySlides" src="images/running-runner-long-distance-fitness-40751.jpeg" > 
+  
+     
 </div>
 
-
+</div>
 </article>
     
 <script>
@@ -172,7 +173,22 @@ function carousel() {
 	});
 </script>
  
-
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDUg3bGKgcYKFpTN8Ucl9nMVcjLmd1yaCA",
+    authDomain: "my-life-website.firebaseapp.com",
+    databaseURL: "https://my-life-website.firebaseio.com",
+    projectId: "my-life-website",
+    storageBucket: "",
+    messagingSenderId: "119895755441"
+  };
+  firebase.initializeApp(config);
+</script>
+    
+<script src="main.js"></script>
 	<!--
 <aside>
     
