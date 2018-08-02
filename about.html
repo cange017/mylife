@@ -12,7 +12,7 @@
   <link href="content.css" rel="stylesheet"/>
   <link href="about.css" rel="stylesheet"/>
 
-  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Helvetica Neue|Great+Vibes|Julius+Sans+One|Prata|Quicksand|Sacramento" rel="stylesheet">
+ 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
 
@@ -69,32 +69,32 @@
 <a id="email" href="mailto: c.angelini10@gmail.com?"> c.angelini10@gmail.com</a>
     </div>
     </div>
+  
     <!--
 <div class="contact form">
     
-  <form id="contact" action="form-to-email.php" method="POST">
+  <form id="contact">
     
     <fieldset>
-      <input placeholder="Name" type="text" tabindex="1" name="name" required autofocus>
+      <input id="name" placeholder="Name" type="text" tabindex="1" name="name" required autofocus>
     </fieldset>
     <fieldset>
-      <input placeholder="Email Address" type="email" tabindex="2" name="email" required>
+      <input id="email" placeholder="Email Address" type="email" tabindex="1" name="email" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Phone Number (5-555-555-5555)" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" type="tel" tabindex="3" name="phone" required>
+      <input id="number" placeholder="Phone Number (5-555-555-5555)" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" type="tel" tabindex="3" name="phone" required>
     </fieldset>
     <fieldset>
-      <textarea placeholder="Type your Message Here...." tabindex="5" name="message" required></textarea>
+      <textarea id="comment" placeholder="Type your Message Here...." tabindex="5" name="message" required></textarea>
     </fieldset>
     <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      <button id="submit" name="submit" type="submit">Submit</button>
        <!-- <input type="submit" name='submit' value="submit">-->
     <!--
     </fieldset>
               
   </form>
-    
--->
+    -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script type="text/javascript">
@@ -122,7 +122,23 @@
 -->
 
 <!--- Actual content ends -->
-
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDUg3bGKgcYKFpTN8Ucl9nMVcjLmd1yaCA",
+    authDomain: "my-life-website.firebaseapp.com",
+    databaseURL: "https://my-life-website.firebaseio.com",
+    projectId: "my-life-website",
+    storageBucket: "",
+    messagingSenderId: "119895755441"
+  };
+  firebase.initializeApp(config);
+</script>
+    
+<script src="main.js"></script>
+    
 <footer>
   <p><strong>&#169; COPYRIGHT 2018 CATHERINE ANGELINI</strong></p>
   <div class="icons">
