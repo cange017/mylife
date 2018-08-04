@@ -177,7 +177,6 @@ div.gallery img {
     padding: 1%;
     float: left;
     height: auto;
-    
 }
 
 div.desc {
@@ -208,7 +207,8 @@ div.desc2 a {
     box-sizing: border-box;
 }
 .responsive {
-    margin: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     float: left;
     margin-left: 5%;
     margin-right: 2%;
@@ -455,6 +455,11 @@ div.desc2 a {
         padding: 1%;
         float: left;
         height: auto;
+    }
+    
+    .responsive {
+        
+    height: 23em;
     }
 }
 
