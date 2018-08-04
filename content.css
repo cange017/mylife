@@ -28,7 +28,7 @@ body {
     animation: colorchange 35s infinite; 
     
     background-color: pink;
-    background: linear-gradient(to bottom right, pink, seagreen);
+    background: linear-gradient(to bottom right, pink, #99b8e0);
     /* animation-name followed by duration in seconds*/
     /* you could also use milliseconds (ms) or something like 2.5s 
     -webkit-animation: colorchange 35s infinite;
