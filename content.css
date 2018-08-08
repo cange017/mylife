@@ -387,7 +387,7 @@ div.desc2 a {
         margin-top: 0%;
         display: inline-block;
         vertical-align: top;
-        position: fixed;;
+        position: fixed;
         background-color: #F4D03F;
         
     }
@@ -432,6 +432,7 @@ div.desc2 a {
         letter-spacing: 1px;
         text-align: center;
         text-decoration: none;
+        
     }
     
     li a:hover {

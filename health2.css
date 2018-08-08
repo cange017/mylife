@@ -113,6 +113,7 @@ button.back {
     margin-top: -1%;
     position: fixed;
     z-index: 2;
+    
 
 }
 button.back:after {
@@ -127,13 +128,14 @@ button.back:after {
   -moz-transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg);
- 
+ outline: none;
 }
     
 button.back:hover:after {
    border-top: 0.5em solid #6666FF;
     border-right: 0.5em solid #6666FF;
     cursor: pointer;
+    outline: none;
 }
     
 h2 button.back {
@@ -143,11 +145,15 @@ h2 button.back {
     
 button.back {
     border-color: transparent;
+    outline: none;
 }
     
 button.back:hover {
     border-color: transparent;
+    outline: none;
 }
+ 
+button:focus { outline: none; }
     
 .main img {
     margin-top: 3%;
@@ -269,7 +275,7 @@ p.notes {
 .tutoriall {
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 50%;
     z-index: 1;
     margin-bottom: 2%;
     margin-top: 3%;
@@ -302,4 +308,11 @@ button.left {
 button.right:hover, button.left:hover, button.print:hover {
     background-color: crimson;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .tutoriall {
+        width: 90%;
+    }
 }
