@@ -178,7 +178,9 @@ img.logo:hover {
     }
     
     iframe {
-        margin-top: 15%;
+        margin-top: -18%;
+        width: 90%;
+        
     }
 }
 
