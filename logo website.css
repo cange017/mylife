@@ -11,11 +11,12 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-family: "Playfair Display", sans-serif;
-    margin-top: -15%;
-    font-size: 300%;
+    font-family: "karla", sans-serif;
+    margin-top: 10%;
+    font-size: 180%;
     letter-spacing: 3px;
-    color: white;
+    color: black;
+    
     text-rendering: optimizeLegibility;
     /*
     margin-bottom: 8%;
@@ -163,5 +164,22 @@ img.logo:hover {
 
 */
 
+@media only screen and (max-width: 768px) {
+    
+    article {
+        margin-top: 20%;
+        
+    }
+
+    h1 {
+        font-size: 150%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    iframe {
+        margin-top: 15%;
+    }
+}
 
 
