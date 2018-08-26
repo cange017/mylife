@@ -123,7 +123,8 @@ h1 {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    overflow: auto;
+    overflow:auto;
+    padding-bottom: 4%;
     margin-bottom: 8%;
 }
 
@@ -215,12 +216,12 @@ div.desc2 a {
     box-sizing: border-box;
 }
 .responsive {
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin: 2%;
     float: left;
-    margin-left: 5%;
-    margin-right: 2%;
+    margin-left: 6%;
+    margin-right: 0%;
     width: 24.99999%;
+    
 }
 @media only screen and (max-width: 700px) {
     .responsive {
@@ -368,6 +369,7 @@ div.desc2 a {
         position: fixed;
         z-index: 2;
         
+        
     }
     
 }
@@ -447,17 +449,11 @@ div.desc2 a {
     }
     
     li a:hover {
-        background-color: #F4D03F;
-        text-decoration: none;
+        text-decoration-line: overline;
     }
     
-    li a:visited {
-        background-color: #F4D03F;
-    }
-    
-    li.selected {
-        background-color: #F4D03F;
-        color: white;
+    li.selected a{
+        text-decoration-line: overline;
     }
     
     div.gallery img {
